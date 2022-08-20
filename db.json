@@ -1,445 +1,245 @@
 {
-    "characters": [
-      {
-        "films": [
-          "The Computer Wore Tennis Shoes",
-          "Now You See Him, Now You Don't",
-          "The Strongest Man in the World"
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          
-        ],
-        "videoGames": [
-          
-        ],
-        "parkAttractions": [
-          
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 1,
-        "name": "A.J. Arno",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/2c/A.J._Arno.jpg",
-        "url": "https://api.disneyapi.dev/characters/14"
-      },
-      {
-        "films": [
-          "The Fox and the Hound",
-          "The Fox and the Hound 2"
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          
-        ],
-        "videoGames": [
-          
-        ],
-        "parkAttractions": [
-          
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 2,
-        "name": "Abigail the Cow",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/05/Fox-disneyscreencaps_com-901.jpg",
-        "url": "https://api.disneyapi.dev/characters/18"
-      },
-      {
-        "films": [
-          
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          "Once Upon a Time"
-        ],
-        "videoGames": [
-          
-        ],
-        "parkAttractions": [
-          
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 3,
-        "name": "Abigail",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/dd/Regalblond.jpg",
-        "url": "https://api.disneyapi.dev/characters/19"
-      },
-      {
-        "films": [
-          "The Return of Jafar",
-          "Aladdin and the King of Thieves"
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          "Aladdin (TV series)"
-        ],
-        "videoGames": [
-          
-        ],
-        "parkAttractions": [
-          
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 4,
-        "name": "Abis Mal's Thugs",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/b/ba/Abis_Mal%27s_Thugs.jpg",
-        "url": "https://api.disneyapi.dev/characters/21"
-      },
-      {
-        "films": [
-          
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          
-        ],
-        "videoGames": [
-          "Tron: Evolution"
-        ],
-        "parkAttractions": [
-          
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 5,
-        "name": "Abraxas",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/ce/Abraxas.jpg",
-        "url": "https://api.disneyapi.dev/characters/23"
-      },
-      {
-        "films": [
-          "Alice in Wonderland (2010 film)",
-          "Alice Through the Looking Glass"
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          
-        ],
-        "videoGames": [
-          "Alice in Wonderland (2010 video game)",
-          "Disney Universe",
-          "Disney Crossy Road"
-        ],
-        "parkAttractions": [
-          
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 6,
-        "name": "Absolem",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/4/4d/Caterpillar.jpg",
-        "url": "https://api.disneyapi.dev/characters/24"
-      },
-      {
-        "films": [
-          "Aladdin (film)",
-          "The Return of Jafar",
-          "Aladdin and the King of Thieves",
-          "Mickey's Magical Christmas: Snowed in at the House of Mouse",
-          "Disney Princess Enchanted Tales: Follow Your Dreams",
-          "Aladdin (2019 film)"
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          "Aladdin (TV series)",
-          "Hercules (TV series)",
-          "House of Mouse"
-        ],
-        "videoGames": [
-          "Aladdin (video game)",
-          "Disney's ReadingQuest With Aladdin",
-          "Disney's MathQuest With Aladdin",
-          "Disney's Aladdin in Nasira's Revenge",
-          "Kingdom Hearts (series)",
-          "Disney Universe",
-          "Disney Princess Enchanting Storybooks",
-          "Epic Mickey: Power of Illusion",
-          "disney:Hidden Worlds",
-          "Disney Infinity (series)",
-          "Disney Villains Challenge",
-          "Disney Tsum Tsum (game)",
-          "Disney Crossy Road",
-          "Disney Magic Kingdoms",
-          "Disney Emoji Blitz",
-          "Disney Getaway Blast",
-          "Disney Princess Majestic Quest"
-        ],
-        "parkAttractions": [
-          "Garden of the Twelve Friends",
-          "Voyage to the Crystal Grotto"
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 7,
-        "name": "Abu",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/3f/Profile_-_Abu.png",
-        "url": "https://api.disneyapi.dev/characters/25"
-      },
-      {
-        "films": [
-          
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          "Gravity Falls"
-        ],
-        "videoGames": [
-          "Gravity Falls: Legend of the Gnome Gemulets"
-        ],
-        "parkAttractions": [
-          
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 8,
-        "name": "Abuelita",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/cd/Profile_-_Abuelita.png",
-        "url": "https://api.disneyapi.dev/characters/26"
-      },
-      {
-        "films": [
-          
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          "Kim Possible"
-        ],
-        "videoGames": [
-          
-        ],
-        "parkAttractions": [
-          
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 9,
-        "name": "Professor Acari",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/5d/Professor_Acari.jpg",
-        "url": "https://api.disneyapi.dev/characters/29"
-      },
-      {
-        "films": [
-          "Leroy & Stitch"
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          "Lilo & Stitch: The Series",
-          "Stitch!"
-        ],
-        "videoGames": [
-          
-        ],
-        "parkAttractions": [
-          
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 10,
-        "name": "Ace",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/1/1e/Profile_-_Ace.png",
-        "url": "https://api.disneyapi.dev/characters/30"
-      },
-      {
-        "films": [
-          "The Hunchback of Notre Dame",
-          "The Hunchback of Notre Dame II"
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          
-        ],
-        "videoGames": [
-          
-        ],
-        "parkAttractions": [
-          
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 11,
-        "name": "Achilles",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/8f/Achilles_HOND.jpg",
-        "url": "https://api.disneyapi.dev/characters/31"
-      },
-      {
-        "films": [
-          "Aladdin (film)",
-          "Aladdin (2019 film)"
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          "Once Upon a Time"
-        ],
-        "videoGames": [
-          "Disney Crossy Road"
-        ],
-        "parkAttractions": [
-          
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 12,
-        "name": "Prince Achmed",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/76/Aladdin-disneyscreencaps.com-1123.jpg",
-        "url": "https://api.disneyapi.dev/characters/33"
-      },
-      {
-        "films": [
-          "Saludos Amigos"
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          
-        ],
-        "videoGames": [
-          
-        ],
-        "parkAttractions": [
-          
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 13,
-        "name": "Aconcagua",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/32/Saludos-Amigos-classic-disney-18407142-800-600.jpg",
-        "url": "https://api.disneyapi.dev/characters/34"
-      },
-      {
-        "films": [
-          "Hercules (film)"
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          "Hercules (TV series)"
-        ],
-        "videoGames": [
-          "Kingdom Hearts III"
-        ],
-        "parkAttractions": [
-          
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 14,
-        "name": "Achilles",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/d3/Vlcsnap-2015-05-06-23h04m15s601.png",
-        "url": "https://api.disneyapi.dev/characters/112"
-      },
-      {
-        "films": [
-          "Zombies",
-          "Zombies 2",
-          "Zombies 3"
-        ],
-        "shortFilms": [
-          
-        ],
-        "tvShows": [
-          "Addison's Moonstone Mystery (page does not exist)"
-        ],
-        "videoGames": [
-          
-        ],
-        "parkAttractions": [
-          
-        ],
-        "allies": [
-          
-        ],
-        "enemies": [
-          
-        ],
-        "_id": 15,
-        "name": "Addison",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/e5/Addison%25_27s_More_Than_Cheer_%25_3F_Teaser_ZOMBIES_2_Disney_Channel.jpg",
-        "url": "https://api.disneyapi.dev/characters/119"
-      }
-    ]
-  }
+  "characters": [
+    {
+      "films": [
+        "The Computer Wore Tennis Shoes",
+        "Now You See Him, Now You Don't",
+        "The Strongest Man in the World"
+      ],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": [],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 1,
+      "name": "A.J. Arno",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/2c/A.J._Arno.jpg",
+      "url": "https://api.disneyapi.dev/characters/14"
+    },
+    {
+      "films": ["The Fox and the Hound", "The Fox and the Hound 2"],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": [],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 2,
+      "name": "Abigail the Cow",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/05/Fox-disneyscreencaps_com-901.jpg",
+      "url": "https://api.disneyapi.dev/characters/18"
+    },
+    {
+      "films": [],
+      "shortFilms": [],
+      "tvShows": ["Once Upon a Time"],
+      "videoGames": [],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 3,
+      "name": "Abigail",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/dd/Regalblond.jpg",
+      "url": "https://api.disneyapi.dev/characters/19"
+    },
+    {
+      "films": ["The Return of Jafar", "Aladdin and the King of Thieves"],
+      "shortFilms": [],
+      "tvShows": ["Aladdin (TV series)"],
+      "videoGames": [],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 4,
+      "name": "Abis Mal's Thugs",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/b/ba/Abis_Mal%27s_Thugs.jpg",
+      "url": "https://api.disneyapi.dev/characters/21"
+    },
+    {
+      "films": [],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": ["Tron: Evolution"],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 5,
+      "name": "Abraxas",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/ce/Abraxas.jpg",
+      "url": "https://api.disneyapi.dev/characters/23"
+    },
+    {
+      "films": [
+        "Alice in Wonderland (2010 film)",
+        "Alice Through the Looking Glass"
+      ],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": [
+        "Alice in Wonderland (2010 video game)",
+        "Disney Universe",
+        "Disney Crossy Road"
+      ],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 6,
+      "name": "Absolem",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/4/4d/Caterpillar.jpg",
+      "url": "https://api.disneyapi.dev/characters/24"
+    },
+    {
+      "films": [
+        "Aladdin (film)",
+        "The Return of Jafar",
+        "Aladdin and the King of Thieves",
+        "Mickey's Magical Christmas: Snowed in at the House of Mouse",
+        "Disney Princess Enchanted Tales: Follow Your Dreams",
+        "Aladdin (2019 film)"
+      ],
+      "shortFilms": [],
+      "tvShows": [
+        "Aladdin (TV series)",
+        "Hercules (TV series)",
+        "House of Mouse"
+      ],
+      "videoGames": [
+        "Aladdin (video game)",
+        "Disney's ReadingQuest With Aladdin",
+        "Disney's MathQuest With Aladdin",
+        "Disney's Aladdin in Nasira's Revenge",
+        "Kingdom Hearts (series)",
+        "Disney Universe",
+        "Disney Princess Enchanting Storybooks",
+        "Epic Mickey: Power of Illusion",
+        "disney:Hidden Worlds",
+        "Disney Infinity (series)",
+        "Disney Villains Challenge",
+        "Disney Tsum Tsum (game)",
+        "Disney Crossy Road",
+        "Disney Magic Kingdoms",
+        "Disney Emoji Blitz",
+        "Disney Getaway Blast",
+        "Disney Princess Majestic Quest"
+      ],
+      "parkAttractions": [
+        "Garden of the Twelve Friends",
+        "Voyage to the Crystal Grotto"
+      ],
+      "allies": [],
+      "enemies": [],
+      "_id": 7,
+      "name": "Abu",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/3f/Profile_-_Abu.png",
+      "url": "https://api.disneyapi.dev/characters/25"
+    },
+    {
+      "films": [],
+      "shortFilms": [],
+      "tvShows": ["Gravity Falls"],
+      "videoGames": ["Gravity Falls: Legend of the Gnome Gemulets"],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 8,
+      "name": "Abuelita",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/cd/Profile_-_Abuelita.png",
+      "url": "https://api.disneyapi.dev/characters/26"
+    },
+    {
+      "films": [],
+      "shortFilms": [],
+      "tvShows": ["Kim Possible"],
+      "videoGames": [],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 9,
+      "name": "Professor Acari",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/5d/Professor_Acari.jpg",
+      "url": "https://api.disneyapi.dev/characters/29"
+    },
+    {
+      "films": ["Leroy & Stitch"],
+      "shortFilms": [],
+      "tvShows": ["Lilo & Stitch: The Series", "Stitch!"],
+      "videoGames": [],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 10,
+      "name": "Ace",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/1/1e/Profile_-_Ace.png",
+      "url": "https://api.disneyapi.dev/characters/30"
+    },
+    {
+      "films": [
+        "The Hunchback of Notre Dame",
+        "The Hunchback of Notre Dame II"
+      ],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": [],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 11,
+      "name": "Achilles",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/8f/Achilles_HOND.jpg",
+      "url": "https://api.disneyapi.dev/characters/31"
+    },
+    {
+      "films": ["Aladdin (film)", "Aladdin (2019 film)"],
+      "shortFilms": [],
+      "tvShows": ["Once Upon a Time"],
+      "videoGames": ["Disney Crossy Road"],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 12,
+      "name": "Prince Achmed",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/76/Aladdin-disneyscreencaps.com-1123.jpg",
+      "url": "https://api.disneyapi.dev/characters/33"
+    },
+    {
+      "films": ["Saludos Amigos"],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": [],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 13,
+      "name": "Aconcagua",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/32/Saludos-Amigos-classic-disney-18407142-800-600.jpg",
+      "url": "https://api.disneyapi.dev/characters/34"
+    },
+    {
+      "films": ["Hercules (film)"],
+      "shortFilms": [],
+      "tvShows": ["Hercules (TV series)"],
+      "videoGames": ["Kingdom Hearts III"],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 14,
+      "name": "Achilles",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/d3/Vlcsnap-2015-05-06-23h04m15s601.png",
+      "url": "https://api.disneyapi.dev/characters/112"
+    },
+    {
+      "films": ["Zombies", "Zombies 2", "Zombies 3"],
+      "shortFilms": [],
+      "tvShows": ["Addison's Moonstone Mystery (page does not exist)"],
+      "videoGames": [],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 15,
+      "name": "Addison",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/e5/Addison%25_27s_More_Than_Cheer_%25_3F_Teaser_ZOMBIES_2_Disney_Channel.jpg",
+      "url": "https://api.disneyapi.dev/characters/119"
+    }
+  ]
+}
