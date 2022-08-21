@@ -1,9 +1,5 @@
 function CharacterCard() {
-    return (
-        <div>
-            CharacterCard component
-        </div>
-    )
+  return <li>Character Card Component</li>;
 }
 
-export default CharacterCard
+export default CharacterCard;

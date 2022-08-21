@@ -1,9 +1,10 @@
 function Home() {
-    return (
-        <div>
-            Home component
-        </div>
-    )
+  return (
+    <div>
+      Home component
+      <button>Explore Disney Characters</button>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
