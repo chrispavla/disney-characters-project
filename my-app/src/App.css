@@ -23,10 +23,6 @@
 }
 
 /* setting style for selected NavBar link */
-.active { 
+.active {
   background-color: lightblue;
-}
-
-#nav {
-
 }
