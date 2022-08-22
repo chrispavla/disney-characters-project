@@ -5,13 +5,13 @@ function NavBar() {
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         <a className="navbar-brand">
-          <img
+          {/* <img
             src="./291-2917582_mickey-mouse-logo-transparent-hd-png-download.png"
             alt=""
             width="30"
             height="24"
             className="d-inline-block align-text-top"
-          />
+          /> */}
           Disney Characters
         </a>
         <button
