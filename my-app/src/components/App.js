@@ -5,8 +5,18 @@ import Home from './Home';
 import CharactersList from './CharactersList';
 import FavoriteCharacters from './FavoriteCharacters';
 import NewCharacterForm from './NewCharacterForm';
+import { useEffect, useState } from 'react';
 
 function App() {
+
+  const [characters, setCharacters] = useState([])
+
+  useEffect(() => {
+    fetch('http://localhost:3000/characters')
+      .then(res => res.json())
+      .then(characterData => setCharacters(characterData))
+  }, [])
+
   return (
     <div className="App">
       <NavBar />
@@ -15,7 +25,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/all">
-          <CharactersList />
+          <CharactersList characters={characters}/>
         </Route>
         <Route path="/favorites">
           <FavoriteCharacters />
