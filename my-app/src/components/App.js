@@ -6,15 +6,21 @@ import CharactersList from "./CharactersList";
 import FavoriteCharacters from "./FavoriteCharacters";
 import NewCharacterForm from "./NewCharacterForm";
 import { useEffect, useState } from "react";
+import CharacterDetails from "./CharacterDetails";
+import { useParams } from "react-router-dom"
 
 function App() {
   const [characters, setCharacters] = useState([]);
-  const [search, setSearch] = useState([]);
+  const [search, setSearch] = useState("");
+  // const { id } = useParams()
 
   useEffect(() => {
     fetch("http://localhost:3000/characters")
       .then((res) => res.json())
-      .then((characterData) => setCharacters(characterData));
+      .then((characterData) => {
+        setCharacters(characterData)
+        // debugger
+      });
   }, []);
 
   function setSearchBar(e) {
@@ -24,6 +30,7 @@ function App() {
   const filteredCharactersBySearchBar = characters.filter((character) => {
     return character.name.toLowerCase().includes(search.toLowerCase());
   });
+  
 
   return (
     <div className="App">
@@ -32,16 +39,19 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/all">
+        <Route exact path="/characters">
           <CharactersList
             characters={filteredCharactersBySearchBar}
             setSearchBar={setSearchBar}
           />
         </Route>
-        <Route path="/favorites">
+        <Route exact path="/characters/:id">
+          <CharacterDetails characters={characters}/>
+        </Route>
+        <Route exact path="/favorites">
           <FavoriteCharacters />
         </Route>
-        <Route path="/create-new">
+        <Route exact path="/create-new">
           <NewCharacterForm />
         </Route>
       </Switch>

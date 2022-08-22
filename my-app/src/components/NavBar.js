@@ -30,7 +30,7 @@ function NavBar() {
             <NavLink className="nav-link" exact to="/" aria-current="page">
               Home
             </NavLink>
-            <NavLink className="nav-link" exact to="/all">
+            <NavLink className="nav-link" exact to="/characters">
               All Characters
             </NavLink>
             <NavLink className="nav-link" exact to="/favorites">
