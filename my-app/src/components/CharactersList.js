@@ -3,20 +3,17 @@ import CharacterCard from "./CharacterCard";
 import Filter from "./Filter";
 import { Link } from "react-router-dom";
 
-function CharactersList({ characters, handleClick }) {
+function CharactersList({ characters, handleClick, handleUpdatedLikes }) {
   const charactersToDisplay = characters.map((character) => (
-    <CharacterCard 
-      character={character} 
-      key={character["_id"]} 
+    <CharacterCard
+      character={character}
+      key={character.id}
       handleClick={handleClick}
+      handleUpdatedLikes={handleUpdatedLikes}
     />
   ));
 
-  return (
-    <div>
-      {charactersToDisplay}
-    </div>
-  );
+  return <div>{charactersToDisplay}</div>;
 }
 
 export default CharactersList;

@@ -14,15 +14,40 @@ function App() {
   const [characters, setCharacters] = useState([]);
   const [search, setSearch] = useState("");
   const [showVillains, setShowVillains] = useState(false);
-  const [favoriteCharacters, setFavoriteCharacters] = useState([])
+  const [favoriteCharacters, setFavoriteCharacters] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3000/characters")
       .then((res) => res.json())
       .then((characterData) => {
-        setCharacters(characterData)
+        setCharacters(characterData);
       });
   }, []);
+
+  function handleUpdatedLikes(character) {
+    fetch(`http://localhost:3000/characters/${character.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        likes: character.likes + 1,
+      }),
+    })
+      .then((res) => res.json())
+      .then((data) => updatedCharacters(data));
+  }
+
+  function updatedCharacters(updatedCharacter) {
+    let newCharacters = characters.map((character) => {
+      if (character.id === updatedCharacter.id) {
+        return updatedCharacter;
+      } else {
+        return character;
+      }
+    });
+    setCharacters(newCharacters);
+  }
 
   function handleShowVillains() {
     setShowVillains((showVillains) => !showVillains);
@@ -39,7 +64,7 @@ function App() {
     .filter((character) => (showVillains ? character.isVillain : true));
 
   function handleClick(favoritedCharacter) {
-    setFavoriteCharacters([...favoriteCharacters, favoritedCharacter])
+    setFavoriteCharacters([...favoriteCharacters, favoritedCharacter]);
   }
 
   return (
@@ -61,15 +86,14 @@ function App() {
             handleShowVillains={handleShowVillains}
             showVillains={showVillains}
             handleClick={handleClick}
+            handleUpdatedLikes={handleUpdatedLikes}
           />
         </Route>
         <Route exact path="/characters/:id">
           <CharacterDetails characters={characters} />
         </Route>
         <Route exact path="/favorites">
-          <FavoriteCharacters 
-            favoriteCharacters={favoriteCharacters}
-          />
+          <FavoriteCharacters favoriteCharacters={favoriteCharacters} />
         </Route>
         <Route exact path="/create-new">
           <NewCharacterForm />

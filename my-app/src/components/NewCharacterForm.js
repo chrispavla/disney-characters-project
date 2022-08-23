@@ -6,6 +6,10 @@ function NewCharacterForm() {
   const [films, setFilms] = useState("");
   const [isVillain, setIsVillain] = useState(false);
 
+  function handleToggle(villainStatus) {
+    setIsVillain(villainStatus);
+  }
+
   return (
     <div>
       <h2>Add Characters to Disney Universe</h2>
@@ -44,9 +48,21 @@ function NewCharacterForm() {
         />
         <br></br>
         <label for="villain">Is it a villain?</label>
-        <input type="radio" id="villain" name="isVillain" />
+        <input
+          type="radio"
+          id="villain"
+          name="isVillain"
+          value={true}
+          onChange={() => handleToggle(true)}
+        />
         <label for="villain">Villain</label>
-        <input type="radio" id="notVillain" name="isVillain" />
+        <input
+          type="radio"
+          id="notVillain"
+          name="isVillain"
+          value={false}
+          onChange={() => handleToggle(false)}
+        />
         <label for="notVillain">Not a villain</label>
         <br></br>
         <button type="submit">Submit character</button>
