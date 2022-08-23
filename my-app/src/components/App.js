@@ -14,14 +14,13 @@ function App() {
   const [characters, setCharacters] = useState([]);
   const [search, setSearch] = useState("");
   const [showVillains, setShowVillains] = useState(false);
-  // const { id } = useParams()
+  const [favoriteCharacters, setFavoriteCharacters] = useState([])
 
   useEffect(() => {
     fetch("http://localhost:3000/characters")
       .then((res) => res.json())
       .then((characterData) => {
-        setCharacters(characterData);
-        // debugger
+        setCharacters(characterData)
       });
   }, []);
 
@@ -38,6 +37,10 @@ function App() {
       character.name.toLowerCase().includes(search.toLowerCase())
     )
     .filter((character) => (showVillains ? character.isVillain : true));
+
+  function handleClick(favoritedCharacter) {
+    setFavoriteCharacters([...favoriteCharacters, favoritedCharacter])
+  }
 
   return (
     <div className="App">
@@ -57,14 +60,16 @@ function App() {
             setSearchBar={setSearchBar}
             handleShowVillains={handleShowVillains}
             showVillains={showVillains}
+            handleClick={handleClick}
           />
         </Route>
-
         <Route exact path="/characters/:id">
           <CharacterDetails characters={characters} />
         </Route>
         <Route exact path="/favorites">
-          <FavoriteCharacters />
+          <FavoriteCharacters 
+            favoriteCharacters={favoriteCharacters}
+          />
         </Route>
         <Route exact path="/create-new">
           <NewCharacterForm />
