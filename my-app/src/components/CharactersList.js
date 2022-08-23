@@ -3,23 +3,17 @@ import CharacterCard from "./CharacterCard";
 import Filter from "./Filter";
 import { Link } from "react-router-dom";
 
-function CharactersList({
-  characters,
-  // setSearchBar,
-  // showVillains,
-  // handleShowVillains,
-}) {
+function CharactersList({ characters, handleClick }) {
   const charactersToDisplay = characters.map((character) => (
-    <CharacterCard character={character} key={character["_id"]} />
+    <CharacterCard 
+      character={character} 
+      key={character["_id"]} 
+      handleClick={handleClick}
+    />
   ));
 
   return (
     <div>
-      {/* <Filter
-       setSearchBar={setSearchBar}
-       showVillains={showVillains}
-      handleShowVillains={handleShowVillains}
-      > */}
       {charactersToDisplay}
     </div>
   );
