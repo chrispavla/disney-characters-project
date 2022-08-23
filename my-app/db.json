@@ -374,7 +374,7 @@
       "name": "Addison",
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/e5/Addison%25_27s_More_Than_Cheer_%25_3F_Teaser_ZOMBIES_2_Disney_Channel.jpg",
       "url": "https://api.disneyapi.dev/characters/119",
-      "isVillain": true,
+      "isVillain": false,
       "likes": 0
     },
     {

@@ -1,8 +1,13 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <div>
       Home component
-      <button>Explore Disney Characters</button>
+      <Link exact to="/characters">
+        Explore Disney Characters
+      </Link>
     </div>
   );
 }
