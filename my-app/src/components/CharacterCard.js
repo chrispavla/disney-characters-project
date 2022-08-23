@@ -2,12 +2,17 @@ import CharacterDetails from "./CharacterDetails";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-function CharacterCard({ character, handleClick }) {
+function CharacterCard({ character, handleClick, handleUpdatedLikes }) {
   const [isFavorited, setIsFavorited] = useState(false);
+
+  function handleLikes() {
+    handleUpdatedLikes(character);
+  }
 
   return (
     <div>
-      <Link to={`/characters/${character["_id"]}`}>
+      <button onClick={handleLikes}>❤️ {character.likes} Likes </button>
+      <Link to={`/characters/${character.id}`}>
         <img src={character.imageUrl} alt={character.name}></img>
         <h3>{character.name}</h3>
       </Link>
