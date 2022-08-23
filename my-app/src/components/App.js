@@ -7,30 +7,37 @@ import FavoriteCharacters from "./FavoriteCharacters";
 import NewCharacterForm from "./NewCharacterForm";
 import { useEffect, useState } from "react";
 import CharacterDetails from "./CharacterDetails";
-import { useParams } from "react-router-dom"
+import { useParams } from "react-router-dom";
+import Filter from "./Filter";
 
 function App() {
   const [characters, setCharacters] = useState([]);
   const [search, setSearch] = useState("");
+  const [showVillains, setShowVillains] = useState(false);
   // const { id } = useParams()
 
   useEffect(() => {
     fetch("http://localhost:3000/characters")
       .then((res) => res.json())
       .then((characterData) => {
-        setCharacters(characterData)
+        setCharacters(characterData);
         // debugger
       });
   }, []);
+
+  function handleShowVillains() {
+    setShowVillains((showVillains) => !showVillains);
+  }
 
   function setSearchBar(e) {
     setSearch(e.target.value);
   }
 
-  const filteredCharactersBySearchBar = characters.filter((character) => {
-    return character.name.toLowerCase().includes(search.toLowerCase());
-  });
-  
+  const filteredCharactersBySearchBar = characters
+    .filter((character) =>
+      character.name.toLowerCase().includes(search.toLowerCase())
+    )
+    .filter((character) => (showVillains ? character.isVillain : true));
 
   return (
     <div className="App">
@@ -40,13 +47,21 @@ function App() {
           <Home />
         </Route>
         <Route exact path="/characters">
+          <Filter
+            setSearchBar={setSearchBar}
+            showVillains={showVillains}
+            handleShowVillains={handleShowVillains}
+          />
           <CharactersList
             characters={filteredCharactersBySearchBar}
             setSearchBar={setSearchBar}
+            handleShowVillains={handleShowVillains}
+            showVillains={showVillains}
           />
         </Route>
+
         <Route exact path="/characters/:id">
-          <CharacterDetails characters={characters}/>
+          <CharacterDetails characters={characters} />
         </Route>
         <Route exact path="/favorites">
           <FavoriteCharacters />
