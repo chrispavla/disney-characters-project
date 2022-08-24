@@ -1,7 +1,5 @@
 import React from "react";
 import CharacterCard from "./CharacterCard";
-import Filter from "./Filter";
-import { Link } from "react-router-dom";
 
 function CharactersList({
   characters,
@@ -19,7 +17,7 @@ function CharactersList({
     />
   ));
 
-  return <div class="row">{charactersToDisplay}</div>;
+  return <div className="row">{charactersToDisplay}</div>;
 }
 
 export default CharactersList;

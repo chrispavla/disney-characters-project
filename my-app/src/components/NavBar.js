@@ -1,18 +1,19 @@
 import { NavLink, Link } from "react-router-dom";
+import mouse from "../assets/logo-mouse.png"
 
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
-        <Link className="navbar-brand" exact to="/">
-          {/* <img
-            src="/docs/5.2/assets/brand/bootstrap-logo.svg"
+        <Link className="navbar-brand" exact="true" to="/">
+          <img
+            src={mouse}
             alt="logo"
             width="30"
             height="24"
             className="d-inline-block align-text-top"
-          /> */}
-          Disney Characters
+          />
+          World of Disney Characters
         </Link>
         <button
           className="navbar-toggler"
