@@ -1,8 +1,12 @@
 import CharacterCard from "./CharacterCard";
 
-function FavoriteCharacters({ favoriteCharacters }) {
+function FavoriteCharacters({ favoriteCharacters, handleClick }) {
   const favoriteCharactersToDisplay = favoriteCharacters.map((character) => (
-    <CharacterCard character={character} key={character.id} />
+    <CharacterCard 
+      character={character} 
+      key={character.id}
+      handleClick={handleClick}
+    />
   ));
 
   return (

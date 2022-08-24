@@ -20,7 +20,8 @@ function App() {
     fetch("http://localhost:3000/characters")
       .then((res) => res.json())
       .then((characterData) => {
-        setCharacters(characterData);
+        setCharacters(characterData)
+        setFavoriteCharacters(characterData.filter(character => character.isFavorited === true))
       });
   }, []);
 
@@ -64,8 +65,30 @@ function App() {
     .filter((character) => (showVillains ? character.isVillain : true));
 
   function handleClick(favoritedCharacter) {
-    setFavoriteCharacters([...favoriteCharacters, favoritedCharacter]);
-  }
+    fetch(`http://localhost:3000/characters/${favoritedCharacter.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        isFavorited: (favoritedCharacter.isFavorited ? false : true),
+      }),
+    })
+      .then((res) => res.json())
+      .then(data => updateFavoritedCharacters(data))
+    }
+    
+    function updateFavoritedCharacters(updatedCharacter) {
+      let newCharacters = characters.map((character) => {
+        if (character.id === updatedCharacter.id) {
+          return updatedCharacter;
+        } else {
+          return character;
+        }
+      })
+      setCharacters(newCharacters)
+      setFavoriteCharacters(newCharacters.filter(character => character.isFavorited === true))
+    }
 
   return (
     <div className="App">
@@ -93,7 +116,10 @@ function App() {
           <CharacterDetails characters={characters} />
         </Route>
         <Route exact path="/favorites">
-          <FavoriteCharacters favoriteCharacters={favoriteCharacters} />
+          <FavoriteCharacters 
+            favoriteCharacters={favoriteCharacters} 
+            handleClick={handleClick}
+          />
         </Route>
         <Route exact path="/create-new">
           <NewCharacterForm />

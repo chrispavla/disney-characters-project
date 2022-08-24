@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 function CharacterCard({ character, handleClick, handleUpdatedLikes }) {
-  const [isFavorited, setIsFavorited] = useState(false);
 
   function handleLikes() {
     handleUpdatedLikes(character);
@@ -19,10 +18,9 @@ function CharacterCard({ character, handleClick, handleUpdatedLikes }) {
       <button
         onClick={() => {
           handleClick(character);
-          setIsFavorited(!isFavorited);
         }}
       >
-        {isFavorited ? "Favorited" : "Add to Favorites"}
+        {character.isFavorited ? "Favorited" : "Add to Favorites"}
       </button>
     </div>
   );
