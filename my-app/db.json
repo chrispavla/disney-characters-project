@@ -32,7 +32,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/23/Hannah_Montana_%28character%29.jpg",
       "url": "https://api.disneyapi.dev/characters/2956",
       "isVillain": false,
-      "likes": 10,
+      "likes": 11,
       "isFavorited": true
     },
     {
@@ -40,31 +40,19 @@
         "The Fox and the Hound",
         "The Fox and the Hound 2"
       ],
-      "shortFilms": [
-        
-      ],
-      "tvShows": [
-        
-      ],
-      "videoGames": [
-        
-      ],
-      "parkAttractions": [
-        
-      ],
-      "allies": [
-        
-      ],
-      "enemies": [
-        
-      ],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": [],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
       "id": 2,
       "name": "Abigail the Cow",
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/05/Fox-disneyscreencaps_com-901.jpg",
       "url": "https://api.disneyapi.dev/characters/18",
       "isVillain": false,
-      "likes": 18,
-      "isFavorited": false
+      "likes": 20,
+      "isFavorited": true
     },
     {
       "films": [
@@ -85,7 +73,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/85/Profile_-_Mr._Big.jpeg",
       "url": "https://api.disneyapi.dev/characters/638",
       "isVillain": false,
-      "likes": 5,
+      "likes": 11,
       "isFavorited": true
     },
     {
@@ -108,7 +96,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/fd/Gretchen_understands_the_75_degree_angle.png",
       "url": "https://api.disneyapi.dev/characters/2848",
       "isVillain": false,
-      "likes": 1,
+      "likes": 2,
       "isFavorited": false
     },
     {
@@ -126,8 +114,8 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/ce/Abraxas.jpg",
       "url": "https://api.disneyapi.dev/characters/23",
       "isVillain": true,
-      "likes": 0,
-      "isFavorited": false
+      "likes": 1,
+      "isFavorited": true
     },
     {
       "films": [
@@ -184,7 +172,7 @@
       "url": "https://api.disneyapi.dev/characters/6225",
       "isVillain": false,
       "likes": 4,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -299,7 +287,7 @@
       "url": "https://api.disneyapi.dev/characters/6160",
       "isVillain": false,
       "likes": 3,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [],
@@ -317,7 +305,7 @@
       "url": "https://api.disneyapi.dev/characters/29",
       "isVillain": false,
       "likes": 4,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [],
@@ -337,7 +325,7 @@
       "url": "https://api.disneyapi.dev/characters/290",
       "isVillain": false,
       "likes": 4,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -356,7 +344,7 @@
       "url": "https://api.disneyapi.dev/characters/31",
       "isVillain": false,
       "likes": 3,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -378,7 +366,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/76/Aladdin-disneyscreencaps.com-1123.jpg",
       "url": "https://api.disneyapi.dev/characters/33",
       "isVillain": true,
-      "likes": 4,
+      "likes": 5,
       "isFavorited": false
     },
     {
@@ -397,7 +385,7 @@
       "url": "https://api.disneyapi.dev/characters/34",
       "isVillain": true,
       "likes": 3,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -419,7 +407,7 @@
       "url": "https://api.disneyapi.dev/characters/112",
       "isVillain": false,
       "likes": 0,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -441,7 +429,7 @@
       "url": "https://api.disneyapi.dev/characters/119",
       "isVillain": false,
       "likes": 0,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -723,7 +711,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/8f/Profile_-_Marie.jpeg",
       "url": "https://api.disneyapi.dev/characters/4244",
       "isVillain": false,
-      "likes": 0,
+      "likes": 1,
       "isFavorited": false
     },
     {
@@ -905,7 +893,7 @@
       "url": "https://api.disneyapi.dev/characters/527",
       "isVillain": false,
       "likes": 0,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -940,7 +928,7 @@
       "url": "https://api.disneyapi.dev/characters/2960",
       "isVillain": false,
       "likes": 0,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -1008,7 +996,7 @@
       "url": "https://api.disneyapi.dev/characters/544",
       "isVillain": true,
       "likes": 0,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -1091,7 +1079,7 @@
       "url": "https://api.disneyapi.dev/characters/571",
       "isVillain": false,
       "likes": 4,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -1111,7 +1099,7 @@
       "url": "https://api.disneyapi.dev/characters/14",
       "isVillain": true,
       "likes": 0,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -1140,7 +1128,7 @@
       "url": "https://api.disneyapi.dev/characters/624",
       "isVillain": false,
       "likes": 0,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -1223,7 +1211,7 @@
       "url": "https://api.disneyapi.dev/characters/2930",
       "isVillain": true,
       "likes": 0,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -1247,7 +1235,7 @@
       "url": "https://api.disneyapi.dev/characters/644",
       "isVillain": false,
       "likes": 0,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [],
@@ -1267,7 +1255,7 @@
       "url": "https://api.disneyapi.dev/characters/26",
       "isVillain": false,
       "likes": 0,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -1344,7 +1332,7 @@
       "url": "https://api.disneyapi.dev/characters/6197",
       "isVillain": false,
       "likes": 0,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [
@@ -1404,7 +1392,7 @@
       "url": "https://api.disneyapi.dev/characters/24",
       "isVillain": false,
       "likes": 0,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "films": [

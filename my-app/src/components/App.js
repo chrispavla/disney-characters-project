@@ -120,7 +120,7 @@ function App() {
           <Home />
         </Route>
         <Route exact path="/characters">
-          <h2>All Characters</h2>
+          <h2 className="headers">All Characters</h2>
           <Filter
             setSearchBar={setSearchBar}
             showVillains={showVillains}
@@ -138,7 +138,7 @@ function App() {
           <CharacterDetails characters={characters} />
         </Route>
         <Route exact path="/favorites">
-          <h2>My Favorite Characters</h2>
+          <h2 className="headers">My Favorite Characters</h2>
           <Filter
               setSearchBar={setSearchBar}
               showVillains={showVillains}

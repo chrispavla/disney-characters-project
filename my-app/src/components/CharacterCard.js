@@ -16,26 +16,27 @@ function CharacterCard({
   }
 
   return (
-    <div className="col-xs-6 col-sm-3">
-      <Link to={`/characters/${character.id}`}>
-        <img
-          src={character.imageUrl}
-          alt={character.name}
-          className="img-thumbnail"
-        ></img>
-        <h3>{character.name}</h3>
-      </Link>
-      <button onClick={handleLikes}>❤️ {character.likes} Likes </button>
-      <button
-        onClick={() => {
-          handleClick(character);
-        }}
-      >
-        {character.isFavorited ? "Remove from Favorites" : "Add to Favorites ⭐️"}
-      </button>
-      <button onClick={handleDelete}>
-        Delete Character 😢
-      </button>
+    <div className="card-group col-sm-3">
+      <div className="card listcard my-3 mx-4">
+        <Link className="link" to={`/characters/${character.id}`}>
+          {character.isFavorited ? 
+            <div className="parent"><h2 className="child">⭐️</h2></div> : null
+          }
+          <img className="card-img-top" src={character.imageUrl} alt={character.name}></img>
+          <div className="card-body">
+            <h5 className="card-title">{character.name}</h5>
+          </div>
+        </Link>
+        <div class="card-footer">
+          <button className="btn btn-primary btn-sm btn-block my-1 mx-1" onClick={handleLikes}>❤️ {character.likes} Likes </button>
+          <button className="btn btn-primary btn-sm btn-block my-1 mx-1" onClick={() => {handleClick(character)}}>
+            {character.isFavorited ? "Remove from Favorites" : "Add to Favorites ⭐️"}
+          </button>
+          <button className="btn btn-primary btn-sm btn-block my-1 mx-1" onClick={handleDelete}>
+            Delete Character 😢
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,6 +1,62 @@
 .App {
   text-align: center;
-  background-image: url("./assets/Dania.jpg");
+  background-image: url("./assets/Delicate.jpg");
+}
+
+.not-center {
+  text-align: left;
+}
+
+.headers {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #382c51;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #4e3e72;
+  border: none;
+}
+
+.btn:hover, 
+.btn:focus,
+.btn:active,
+.btn:visited {
+  background-color: #6c579e;
+}
+
+.home {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-items: space-around;
+}
+
+.home-img {
+  width: 100%;
+}
+
+.with-margin {
+  margin-top: 20px;
+}
+
+.home-btn {
+  margin-top: 30px
+}
+
+.bg-fit {
+  height: 100vh
+}
+
+.parent {
+  position: relative;
+}      
+
+.child {
+  position: absolute;
+  right: 10px;
+  top: 10px
 }
 
 .App-logo {
@@ -27,3 +83,39 @@
 .active {
   background-color: lightblue;
 }
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+
+.link {
+  text-decoration: none;
+  color: #120e1a
+}
+.link:hover {
+  color:#655193
+}
+
+.listcard {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.listcard:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .15);
+}
+
+li {
+  list-style: none;
+}
+
+/* .card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
