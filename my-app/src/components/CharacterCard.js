@@ -9,18 +9,18 @@ function CharacterCard({ character, handleClick, handleUpdatedLikes }) {
   }
 
   return (
-    <div>
-      <button onClick={handleLikes}>❤️ {character.likes} Likes </button>
+    <div class="col-xs-6 col-sm-3">
       <Link to={`/characters/${character.id}`}>
-        <img src={character.imageUrl} alt={character.name}></img>
+        <img src={character.imageUrl} alt={character.name} class="img-thumbnail"></img>
         <h3>{character.name}</h3>
       </Link>
+      <button onClick={handleLikes}>❤️ {character.likes} Likes </button>
       <button
         onClick={() => {
           handleClick(character);
         }}
       >
-        {character.isFavorited ? "Favorited" : "Add to Favorites"}
+        {character.isFavorited ? "Remove from Favorites" : "Add to Favorites"}
       </button>
     </div>
   );

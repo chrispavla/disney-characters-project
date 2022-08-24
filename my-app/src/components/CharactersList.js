@@ -13,7 +13,7 @@ function CharactersList({ characters, handleClick, handleUpdatedLikes }) {
     />
   ));
 
-  return <div>{charactersToDisplay}</div>;
+  return <div class="row">{charactersToDisplay}</div>;
 }
 
 export default CharactersList;
