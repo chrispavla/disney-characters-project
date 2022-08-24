@@ -1,10 +1,7 @@
 {
   "characters": [
     {
-      "films": [
-        "Hannah Montana: The Movie",
-        "High School Musical 3"
-      ],
+      "films": ["Hannah Montana: The Movie", "High School Musical 3"],
       "shortFilms": [],
       "tvShows": [
         "Hannah Montana",
@@ -22,9 +19,7 @@
         "Hannah Montana: Rock Out The Show",
         "Disney Channel All Star Party"
       ],
-      "parkAttractions": [
-        "Disneyland Resort"
-      ],
+      "parkAttractions": ["Disneyland Resort"],
       "allies": [],
       "enemies": [],
       "id": 1,
@@ -36,10 +31,7 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "The Fox and the Hound",
-        "The Fox and the Hound 2"
-      ],
+      "films": ["The Fox and the Hound", "The Fox and the Hound 2"],
       "shortFilms": [],
       "tvShows": [],
       "videoGames": [],
@@ -55,9 +47,7 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Zootopia"
-      ],
+      "films": ["Zootopia"],
       "shortFilms": [],
       "tvShows": [],
       "videoGames": [
@@ -77,13 +67,9 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Phineas and Ferb the Movie: Across the 2nd Dimension"
-      ],
+      "films": ["Phineas and Ferb the Movie: Across the 2nd Dimension"],
       "shortFilms": [],
-      "tvShows": [
-        "Phineas and Ferb"
-      ],
+      "tvShows": ["Phineas and Ferb"],
       "videoGames": [
         "Phineas and Ferb (video game)",
         "Phineas and Ferb Ride Again"
@@ -103,9 +89,7 @@
       "films": [],
       "shortFilms": [],
       "tvShows": [],
-      "videoGames": [
-        "Tron: Evolution"
-      ],
+      "videoGames": ["Tron: Evolution"],
       "parkAttractions": [],
       "allies": [],
       "enemies": [],
@@ -292,9 +276,7 @@
     {
       "films": [],
       "shortFilms": [],
-      "tvShows": [
-        "Kim Possible"
-      ],
+      "tvShows": ["Kim Possible"],
       "videoGames": [],
       "parkAttractions": [],
       "allies": [],
@@ -347,17 +329,10 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Aladdin (film)",
-        "Aladdin (2019 film)"
-      ],
+      "films": ["Aladdin (film)", "Aladdin (2019 film)"],
       "shortFilms": [],
-      "tvShows": [
-        "Once Upon a Time"
-      ],
-      "videoGames": [
-        "Disney Crossy Road"
-      ],
+      "tvShows": ["Once Upon a Time"],
+      "videoGames": ["Disney Crossy Road"],
       "parkAttractions": [],
       "allies": [],
       "enemies": [],
@@ -370,9 +345,7 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Saludos Amigos"
-      ],
+      "films": ["Saludos Amigos"],
       "shortFilms": [],
       "tvShows": [],
       "videoGames": [],
@@ -388,16 +361,10 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Hercules (film)"
-      ],
+      "films": ["Hercules (film)"],
       "shortFilms": [],
-      "tvShows": [
-        "Hercules (TV series)"
-      ],
-      "videoGames": [
-        "Kingdom Hearts III"
-      ],
+      "tvShows": ["Hercules (TV series)"],
+      "videoGames": ["Kingdom Hearts III"],
       "parkAttractions": [],
       "allies": [],
       "enemies": [],
@@ -410,15 +377,9 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Zombies",
-        "Zombies 2",
-        "Zombies 3"
-      ],
+      "films": ["Zombies", "Zombies 2", "Zombies 3"],
       "shortFilms": [],
-      "tvShows": [
-        "Addison's Moonstone Mystery (page does not exist)"
-      ],
+      "tvShows": ["Addison's Moonstone Mystery (page does not exist)"],
       "videoGames": [],
       "parkAttractions": [],
       "allies": [],
@@ -432,21 +393,11 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Frozen",
-        "Ralph Breaks the Internet",
-        "Frozen II"
-      ],
-      "shortFilms": [
-        "Olaf's Frozen Adventure"
-      ],
-      "tvShows": [
-        "Once Upon a Time"
-      ],
+      "films": ["Frozen", "Ralph Breaks the Internet", "Frozen II"],
+      "shortFilms": ["Olaf's Frozen Adventure"],
+      "tvShows": ["Once Upon a Time"],
       "videoGames": [],
-      "parkAttractions": [
-        "Frozen: Live at the Hyperion"
-      ],
+      "parkAttractions": ["Frozen: Live at the Hyperion"],
       "allies": [],
       "enemies": [],
       "id": 16,
@@ -458,14 +409,9 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Leroy & Stitch"
-      ],
+      "films": ["Leroy & Stitch"],
       "shortFilms": [],
-      "tvShows": [
-        "Lilo & Stitch: The Series",
-        "Stitch!"
-      ],
+      "tvShows": ["Lilo & Stitch: The Series", "Stitch!"],
       "videoGames": [
         "Lilo & Stitch 2: Hämsterviel Havoc",
         "Stitch Jam",
@@ -497,10 +443,7 @@
         "Mickey's Once Upon a Christmas",
         "Mickey, Donald, Goofy: The Three Musketeers"
       ],
-      "shortFilms": [
-        "Sport Goofy in Soccermania",
-        "Swabbies"
-      ],
+      "shortFilms": ["Sport Goofy in Soccermania", "Swabbies"],
       "tvShows": [
         "DuckTales",
         "Darkwing Duck",
@@ -532,11 +475,7 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Frozen",
-        "Frozen II",
-        "Ralph Breaks the Internet"
-      ],
+      "films": ["Frozen", "Frozen II", "Ralph Breaks the Internet"],
       "shortFilms": [
         "Frozen Fever",
         "The Art of Keeping Cool",
@@ -598,15 +537,9 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Fantasia",
-        "The Good Dinosaur"
-      ],
+      "films": ["Fantasia", "The Good Dinosaur"],
       "shortFilms": [],
-      "tvShows": [
-        "The Little Mermaid (TV series)",
-        "The Legend of Tarzan"
-      ],
+      "tvShows": ["The Little Mermaid (TV series)", "The Legend of Tarzan"],
       "videoGames": [],
       "parkAttractions": [
         "Ford Magic Skyway",
@@ -624,14 +557,9 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Leroy & Stitch"
-      ],
+      "films": ["Leroy & Stitch"],
       "shortFilms": [],
-      "tvShows": [
-        "Lilo & Stitch: The Series",
-        "Stitch!"
-      ],
+      "tvShows": ["Lilo & Stitch: The Series", "Stitch!"],
       "videoGames": [],
       "parkAttractions": [],
       "allies": [],
@@ -645,28 +573,16 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Tangled",
-        "Tangled: Before Ever After"
-      ],
-      "shortFilms": [
-        "Tangled Ever After",
-        "Hare Peace"
-      ],
-      "tvShows": [
-        "Once Upon a Time",
-        "Tangled: The Series"
-      ],
+      "films": ["Tangled", "Tangled: Before Ever After"],
+      "shortFilms": ["Tangled Ever After", "Hare Peace"],
+      "tvShows": ["Once Upon a Time", "Tangled: The Series"],
       "videoGames": [
         "Disney Princess Enchanting Storybooks",
         "Hidden Worlds",
         "Disney Crossy Road",
         "Kingdom Hearts III"
       ],
-      "parkAttractions": [
-        "Celebrate the Magic",
-        "Jingle Bell, Jingle BAM!"
-      ],
+      "parkAttractions": ["Celebrate the Magic", "Jingle Bell, Jingle BAM!"],
       "allies": [],
       "enemies": [],
       "id": 22,
@@ -678,15 +594,9 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "The Aristocats",
-        "Ralph Breaks the Internet"
-      ],
+      "films": ["The Aristocats", "Ralph Breaks the Internet"],
       "shortFilms": [],
-      "tvShows": [
-        "A Poem Is...",
-        "Disney Tsum Tsum (shorts)"
-      ],
+      "tvShows": ["A Poem Is...", "Disney Tsum Tsum (shorts)"],
       "videoGames": [
         "Disney's Party",
         "Disney TH!NK Fast",
@@ -852,14 +762,8 @@
         "Ralph Breaks the Internet",
         "Frozen II"
       ],
-      "shortFilms": [
-        "Frozen Fever"
-      ],
-      "tvShows": [
-        "Big Hero 6: The Series",
-        "At Home With Olaf",
-        "Baymax!"
-      ],
+      "shortFilms": ["Frozen Fever"],
+      "tvShows": ["Big Hero 6: The Series", "At Home With Olaf", "Baymax!"],
       "videoGames": [
         "Disney Infinity (series)",
         "Big Hero 6: Battle in the Bay",
@@ -896,17 +800,9 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Frozen",
-        "Big Hero 6",
-        "Frozen II"
-      ],
-      "shortFilms": [
-        "Frozen Fever"
-      ],
-      "tvShows": [
-        "Once Upon a Time"
-      ],
+      "films": ["Frozen", "Big Hero 6", "Frozen II"],
+      "shortFilms": ["Frozen Fever"],
+      "tvShows": ["Once Upon a Time"],
       "videoGames": [
         "Frozen: Free Fall",
         "Disney Enchanted Tales (game)",
@@ -1102,19 +998,10 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "The Rescuers",
-        "The Rescuers Down Under"
-      ],
+      "films": ["The Rescuers", "The Rescuers Down Under"],
       "shortFilms": [],
-      "tvShows": [
-        "House of Mouse",
-        "A Poem Is..."
-      ],
-      "videoGames": [
-        "Disney Emoji Blitz",
-        "Disney Tsum Tsum (game)"
-      ],
+      "tvShows": ["House of Mouse", "A Poem Is..."],
+      "videoGames": ["Disney Emoji Blitz", "Disney Tsum Tsum (game)"],
       "parkAttractions": [
         "Parade of the Stars",
         "World of Color",
@@ -1133,9 +1020,7 @@
     {
       "films": [],
       "shortFilms": [],
-      "tvShows": [
-        "Once Upon a Time"
-      ],
+      "tvShows": ["Once Upon a Time"],
       "videoGames": [],
       "parkAttractions": [],
       "allies": [],
@@ -1149,10 +1034,7 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "A Goofy Movie",
-        "Bedtime Stories"
-      ],
+      "films": ["A Goofy Movie", "Bedtime Stories"],
       "shortFilms": [],
       "tvShows": [
         "Walt Disney anthology series",
@@ -1164,10 +1046,7 @@
         "DuckTales (2017 series)",
         "Vampirina"
       ],
-      "videoGames": [
-        "Disney Heroes: Battle Mode",
-        "Disney Emoji Blitz"
-      ],
+      "videoGames": ["Disney Heroes: Battle Mode", "Disney Emoji Blitz"],
       "parkAttractions": [],
       "allies": [],
       "enemies": [],
@@ -1238,11 +1117,7 @@
         "Who Framed Roger Rabbit"
       ],
       "shortFilms": [],
-      "tvShows": [
-        "House of Mouse",
-        "Quack Pack",
-        "Darkwing Duck"
-      ],
+      "tvShows": ["House of Mouse", "Quack Pack", "Darkwing Duck"],
       "videoGames": [],
       "parkAttractions": [],
       "allies": [],
@@ -1258,12 +1133,8 @@
     {
       "films": [],
       "shortFilms": [],
-      "tvShows": [
-        "Gravity Falls"
-      ],
-      "videoGames": [
-        "Gravity Falls: Legend of the Gnome Gemulets"
-      ],
+      "tvShows": ["Gravity Falls"],
+      "videoGames": ["Gravity Falls: Legend of the Gnome Gemulets"],
       "parkAttractions": [],
       "allies": [],
       "enemies": [],
@@ -1293,9 +1164,7 @@
         "The Cheetah Girls: Pop Star Sensations",
         "The Cheetah Girls"
       ],
-      "parkAttractions": [
-        "Disneyland Paris"
-      ],
+      "parkAttractions": ["Disneyland Paris"],
       "allies": [],
       "enemies": [],
       "id": 38,
@@ -1314,10 +1183,7 @@
         "Ralph Breaks the Internet"
       ],
       "shortFilms": [],
-      "tvShows": [
-        "Phineas and Ferb",
-        "Legend of the Three Caballeros"
-      ],
+      "tvShows": ["Phineas and Ferb", "Legend of the Three Caballeros"],
       "videoGames": [
         "Kingdom Hearts (series)",
         "The Nightmare Before Christmas: Oogie's Revenge",
@@ -1353,9 +1219,7 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "The Nightmare Before Christmas"
-      ],
+      "films": ["The Nightmare Before Christmas"],
       "shortFilms": [],
       "tvShows": [],
       "videoGames": [
@@ -1413,12 +1277,8 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Moana (film)"
-      ],
-      "shortFilms": [
-        "Gone Fishing"
-      ],
+      "films": ["Moana (film)"],
+      "shortFilms": ["Gone Fishing"],
       "tvShows": [],
       "videoGames": [
         "Moana: Island Life",
@@ -1432,9 +1292,7 @@
         "Disney Getaway Blast",
         "Disney Mirrorverse"
       ],
-      "parkAttractions": [
-        "Summer Blast"
-      ],
+      "parkAttractions": ["Summer Blast"],
       "allies": [],
       "enemies": [],
       "id": 42,
@@ -1532,14 +1390,9 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "The Return of Jafar",
-        "Aladdin and the King of Thieves"
-      ],
+      "films": ["The Return of Jafar", "Aladdin and the King of Thieves"],
       "shortFilms": [],
-      "tvShows": [
-        "Aladdin (TV series)"
-      ],
+      "tvShows": ["Aladdin (TV series)"],
       "videoGames": [],
       "parkAttractions": [],
       "allies": [],
@@ -1555,9 +1408,7 @@
     {
       "films": [],
       "shortFilms": [],
-      "tvShows": [
-        "Gravity Falls"
-      ],
+      "tvShows": ["Gravity Falls"],
       "videoGames": [
         "Disney XD Villains Unite!",
         "Gravity Falls: Legend of the Gnome Gemulets",
@@ -1571,19 +1422,13 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/4/41/Profile_-_Bill_Cipher.png",
       "url": "https://api.disneyapi.dev/characters/641",
       "isVillain": true,
-      "likes": 0,
+      "likes": 1,
       "isFavorited": false
     },
     {
-      "films": [
-        "Big Hero 6",
-        "Ralph Breaks the Internet"
-      ],
+      "films": ["Big Hero 6", "Ralph Breaks the Internet"],
       "shortFilms": [],
-      "tvShows": [
-        "Big Hero 6: The Series",
-        "At Home With Olaf"
-      ],
+      "tvShows": ["Big Hero 6: The Series", "At Home With Olaf"],
       "videoGames": [
         "Disney Infinity (series)",
         "Big Hero 6: Battle in the Bay",
@@ -1613,13 +1458,11 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/21/Profile_-_Hiro_Hamada.jpeg",
       "url": "https://api.disneyapi.dev/characters/2942",
       "isVillain": false,
-      "likes": 0,
+      "likes": 1,
       "isFavorited": false
     },
     {
-      "films": [
-        "Zootopia"
-      ],
+      "films": ["Zootopia"],
       "shortFilms": [],
       "tvShows": [],
       "videoGames": [
@@ -1628,9 +1471,7 @@
         "Disney Magical Dice",
         "Disney Sorcerer's Arena"
       ],
-      "parkAttractions": [
-        "Wonderful World of Animation"
-      ],
+      "parkAttractions": ["Wonderful World of Animation"],
       "allies": [],
       "enemies": [],
       "id": 47,
@@ -1642,9 +1483,7 @@
       "isFavorited": false
     },
     {
-      "films": [
-        "Pirates of the Caribbean: On Stranger Tides"
-      ],
+      "films": ["Pirates of the Caribbean: On Stranger Tides"],
       "shortFilms": [],
       "tvShows": [],
       "videoGames": [
@@ -1665,6 +1504,101 @@
       "isVillain": true,
       "likes": 0,
       "isFavorited": false
+    },
+    {
+      "name": "Thomas O'Malley",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/70/Profile_-_Thomas_O%27_Malley.jpeg",
+      "films": ["The Aristocats", "Who Framed Roger Rabbit"],
+      "tvShows": ["House of Mouse"],
+      "shortFilms": [],
+      "videoGames": [],
+      "parkAttractions": ["Celebrate the Magic"],
+      "isVillain": false,
+      "id": 49,
+      "likes": 4,
+      "isFavorited": false
+    },
+    {
+      "name": "Olaf",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/53/Profile_-_Olaf.jpeg",
+      "films": ["Frozen", "Frozen II", "Big Hero 6", "Moana (film)"],
+      "shortFilms": [
+        "Frozen Fever",
+        "The Art of Keeping Cool",
+        "Olaf's Frozen Adventure",
+        "At Home With Olaf",
+        "Once Upon a Snowman"
+      ],
+      "tvShows": [
+        "It's a Small World: The Animated Series",
+        "Sofia the First",
+        "Frozen: Northern Lights"
+      ],
+      "videoGames": [
+        "Frozen: Olaf's Quest",
+        "Frozen Free Fall",
+        "Disney Infinity (series)",
+        "Hidden Worlds",
+        "Disney Magical World 2",
+        "Disney Tsum Tsum (game)",
+        "Disney Emoji Blitz",
+        "Disney Magic Kingdoms",
+        "Disney Magical Dice",
+        "Kingdom Hearts III",
+        "Disney Heroes: Battle Mode",
+        "Disney Getaway Blast",
+        "Disney Sorcerer's Arena"
+      ],
+      "parkAttractions": [
+        "World of Color",
+        "Disney Dreams!",
+        "Celebrate the Magic",
+        "Festival of Fantasy Parade",
+        "Mickey's Soundsational Parade",
+        "A Frozen Holiday Wish",
+        "A Christmas Fantasy Parade",
+        "Mickey's Once Upon a Christmastime Parade",
+        "Paint the Night Parade",
+        "Fantasmic!",
+        "Frozen Ever After",
+        "Mickey and the Wondrous Book",
+        "Mickey's Royal Friendship Faire",
+        "Frozen: Live at the Hyperion",
+        "Mickey and the Magician",
+        "Once Upon a Time (Tokyo Disneyland)",
+        "Happily Ever After (fireworks show)",
+        "It's a Small World"
+      ],
+      "isVillain": false,
+      "likes": 1,
+      "isFavorited": false,
+      "id": 50
+    },
+    {
+      "name": "Oswald the Lucky Rabbit",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/4/4b/Oswald_cartoon.png",
+      "films": ["Big Hero 6", "Zootopia"],
+      "shortFilms": ["Oswald the Lucky Rabbit (series)", "Get a Horse!"],
+      "tvShows": [
+        "Mickey Mouse (TV series)",
+        "The Wonderful World of Mickey Mouse"
+      ],
+      "videoGames": [
+        "Epic Mickey",
+        "Epic Mickey 2: The Power of Two",
+        "Epic Mickey: Power of Illusion",
+        "Disney Infinity (series)",
+        "Disney Tsum Tsum (game)",
+        "Disney Emoji Blitz"
+      ],
+      "parkAttractions": [
+        "Town Square Theater",
+        "Disney FanDaze Inaugural Party"
+      ],
+      "isVillain": false,
+      "likes": 0,
+      "isFavorited": false,
+      "id": 51
     }
   ]
 }
