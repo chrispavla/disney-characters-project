@@ -51,71 +51,104 @@ function NewCharacterForm(props) {
   }
 
   return (
-    <div>
-      <h2>Add Characters to Disney Universe</h2>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Character name</label>
-        <input
-          required
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Name..."
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-        <br></br>
-        <label htmlFor="image">Add image link</label>
-        <input
-          required
-          type="text"
-          id="image"
-          name="image"
-          placeholder="Image URL..."
-          value={imageUrl}
-          onChange={(e) => setImageUrl(e.target.value)}
-        />
-        <br></br>
-        <label htmlFor="film">Add film name</label>
-        <input
-          type="text"
-          name="film"
-          step="0.01"
-          placeholder="Film..."
-          value={films}
-          onChange={(e) => setFilms(e.target.value)}
-        />
-        <br></br>
-        <label htmlFor="film">Add TV show name</label>
-        <input
-          type="text"
-          name="tvshow"
-          step="0.01"
-          placeholder="TV show..."
-          value={tvshows}
-          onChange={(e) => setTvshows(e.target.value)}
-        />
-        <br></br>
-        <label htmlFor="villain">Is it a villain?</label>
-        <input
-          type="radio"
-          id="villain"
-          name="isVillain"
-          value={true}
-          onChange={() => handleToggle(true)}
-        />
-        <label htmlFor="villain">Villain</label>
-        <input
-          type="radio"
-          id="notVillain"
-          name="isVillain"
-          value={false}
-          onChange={() => handleToggle(false)}
-        />
-        <label htmlFor="notVillain">Not a villain</label>
-        <br></br>
-        <button type="submit">Submit character</button>
-      </form>
+    <div className="bg-fit">
+      <h2 className="headers">Add Characters to Disney Universe</h2>
+      <div className="not-center">
+        <form onSubmit={handleSubmit}>
+          <div className="form-group row my-2 mx-2">
+            <label htmlFor="name" className="col-sm-2 col-form-label">Character name</label>
+            <div className="col-sm-8">
+              <input
+                required
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name..."
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                className="form-control"
+              />
+            </div>
+          </div>
+          <div className="form-group row my-2 mx-2">
+            <label htmlFor="image" className="col-sm-2 col-form-label">Add image link</label>
+            <div className="col-sm-8">
+              <input
+                required
+                type="text"
+                id="image"
+                name="image"
+                placeholder="Image URL..."
+                value={imageUrl}
+                onChange={(e) => setImageUrl(e.target.value)}
+                className="form-control"
+              />
+            </div>
+          </div>
+          <div className="form-group row my-2 mx-2">
+            <label htmlFor="film" className="col-sm-2 col-form-label">Add film name</label>
+            <div className="col-sm-8">
+              <input
+                type="text"
+                name="film"
+                step="0.01"
+                placeholder="Film..."
+                value={films}
+                onChange={(e) => setFilms(e.target.value)}
+                className="form-control"
+              />
+            </div>
+          </div>
+          <div className="form-group row my-2 mx-2">
+            <label htmlFor="film" className="col-sm-2 col-form-label">Add TV show name</label>
+            <div className="col-sm-8">
+              <input
+                type="text"
+                name="tvshow"
+                step="0.01"
+                placeholder="TV show..."
+                value={tvshows}
+                onChange={(e) => setTvshows(e.target.value)}
+                className="form-control"
+              />
+            </div>
+          </div>
+          <fieldset class="form-group">
+            <div className="row mx-2">
+              <legend className="col-form-label col-sm-2 pt-0">Is it a villain?</legend>
+              <div className="col-sm-10">
+                <div className="form-check">
+                  <label for="villain" className="form-check-label">Villain</label>
+                  <input
+                    type="radio"
+                    id="villain"
+                    name="isVillain"
+                    value={true}
+                    onChange={() => handleToggle(true)}
+                    className="form-check-input"
+                    />
+                </div>
+                <div className="form-check">
+                  <label for="notVillain" className="form-check-label">Not a villain</label>
+                  <input
+                    type="radio"
+                    id="notVillain"
+                    name="isVillain"
+                    value={false}
+                    onChange={() => handleToggle(false)}
+                    className="form-check-input"
+                  />
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="submit" className="btn btn-primary mx-3 my-4">Submit character</button>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }
