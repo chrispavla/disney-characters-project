@@ -54,7 +54,7 @@ function NewCharacterForm(props) {
     <div>
       <h2>Add Characters to Disney Universe</h2>
       <form onSubmit={handleSubmit}>
-        <label for="name">Character name</label>
+        <label htmlFor="name">Character name</label>
         <input
           required
           type="text"
@@ -65,7 +65,7 @@ function NewCharacterForm(props) {
           onChange={(e) => setName(e.target.value)}
         />
         <br></br>
-        <label for="image">Add image link</label>
+        <label htmlFor="image">Add image link</label>
         <input
           required
           type="text"
@@ -76,7 +76,7 @@ function NewCharacterForm(props) {
           onChange={(e) => setImageUrl(e.target.value)}
         />
         <br></br>
-        <label for="film">Add film name</label>
+        <label htmlFor="film">Add film name</label>
         <input
           type="text"
           name="film"
@@ -86,7 +86,7 @@ function NewCharacterForm(props) {
           onChange={(e) => setFilms(e.target.value)}
         />
         <br></br>
-        <label for="film">Add TV show name</label>
+        <label htmlFor="film">Add TV show name</label>
         <input
           type="text"
           name="tvshow"
@@ -96,7 +96,7 @@ function NewCharacterForm(props) {
           onChange={(e) => setTvshows(e.target.value)}
         />
         <br></br>
-        <label for="villain">Is it a villain?</label>
+        <label htmlFor="villain">Is it a villain?</label>
         <input
           type="radio"
           id="villain"
@@ -104,7 +104,7 @@ function NewCharacterForm(props) {
           value={true}
           onChange={() => handleToggle(true)}
         />
-        <label for="villain">Villain</label>
+        <label htmlFor="villain">Villain</label>
         <input
           type="radio"
           id="notVillain"
@@ -112,7 +112,7 @@ function NewCharacterForm(props) {
           value={false}
           onChange={() => handleToggle(false)}
         />
-        <label for="notVillain">Not a villain</label>
+        <label htmlFor="notVillain">Not a villain</label>
         <br></br>
         <button type="submit">Submit character</button>
       </form>

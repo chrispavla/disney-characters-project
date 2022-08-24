@@ -1,24 +1,24 @@
 import { withRouter } from "react-router-dom";
 
 function CharacterDetails(props) {
-  console.log(props);
-  const { characters } = props;
-  const id = parseInt(props.match.params.id);
-
+  const { characters, history, match } = props;
+  const id = parseInt(match.params.id);
   const character = characters.find((character) => character.id === id);
 
   function handleGoBack() {
-    props.history.goBack();
+    history.goBack();
   }
 
   return (
     <div>
-      <button onClick={handleGoBack}>Go back</button>
+      <div> 
+        <button onClick={handleGoBack}>Go back</button>
+      </div>
       <img src={character.imageUrl} alt={character.name}></img>
       <h3>{character.name}</h3>
       {character.films.length === 0 ? null : (
         <ul>
-          Films:{" "}
+          Films:
           {character.films.map((film) => (
             <li>{film}</li>
           ))}
@@ -26,7 +26,7 @@ function CharacterDetails(props) {
       )}
       {character.shortFilms.length === 0 ? null : (
         <ul>
-          Short Films:{" "}
+          Short Films:
           {character.shortFilms.map((film) => (
             <li>{film}</li>
           ))}
@@ -34,16 +34,16 @@ function CharacterDetails(props) {
       )}
       {character.tvShows.length === 0 ? null : (
         <ul>
-          TV Shows:{" "}
+          TV Shows:
           {character.tvShows.map((show) => (
             <li>{show}</li>
           ))}
         </ul>
       )}
       {character.isVillain ? (
-        <p>Villain: Villain</p>
+        <p>Villain</p>
       ) : (
-        <p>Villain: Not Villain</p>
+        <p>Not Villain</p>
       )}
     </div>
   );

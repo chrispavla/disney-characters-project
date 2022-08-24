@@ -11,17 +11,17 @@ function CharacterCard({
     handleUpdatedLikes(character);
   }
 
-  function handleDelete(character) {
+  function handleDelete() {
     updateDelete(character);
   }
 
   return (
-    <div class="col-xs-6 col-sm-3">
+    <div className="col-xs-6 col-sm-3">
       <Link to={`/characters/${character.id}`}>
         <img
           src={character.imageUrl}
           alt={character.name}
-          class="img-thumbnail"
+          className="img-thumbnail"
         ></img>
         <h3>{character.name}</h3>
       </Link>
@@ -31,9 +31,9 @@ function CharacterCard({
           handleClick(character);
         }}
       >
-        {character.isFavorited ? "Remove from Favorites" : "Add to Favorites"}
+        {character.isFavorited ? "Remove from Favorites" : "Add to Favorites ⭐️"}
       </button>
-      <button onClick={() => handleDelete(character)}>
+      <button onClick={handleDelete}>
         Delete Character 😢
       </button>
     </div>

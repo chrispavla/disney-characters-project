@@ -32,7 +32,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/23/Hannah_Montana_%28character%29.jpg",
       "url": "https://api.disneyapi.dev/characters/2956",
       "isVillain": false,
-      "likes": 3,
+      "likes": 10,
       "isFavorited": true
     },
     {
@@ -40,12 +40,24 @@
         "The Fox and the Hound",
         "The Fox and the Hound 2"
       ],
-      "shortFilms": [],
-      "tvShows": [],
-      "videoGames": [],
-      "parkAttractions": [],
-      "allies": [],
-      "enemies": [],
+      "shortFilms": [
+        
+      ],
+      "tvShows": [
+        
+      ],
+      "videoGames": [
+        
+      ],
+      "parkAttractions": [
+        
+      ],
+      "allies": [
+        
+      ],
+      "enemies": [
+        
+      ],
       "id": 2,
       "name": "Abigail the Cow",
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/05/Fox-disneyscreencaps_com-901.jpg",
@@ -528,7 +540,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/65/599289-beagle_large.jpg",
       "url": "https://api.disneyapi.dev/characters/531",
       "isVillain": true,
-      "likes": 3,
+      "likes": 4,
       "isFavorited": false
     },
     {
@@ -594,8 +606,8 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/0f/Profile_-_Anna.jpeg",
       "url": "https://api.disneyapi.dev/characters/256",
       "isVillain": false,
-      "likes": 4,
-      "isFavorited": false
+      "likes": 6,
+      "isFavorited": true
     },
     {
       "films": [
@@ -841,8 +853,8 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/e2/Barbossa_thinks.jpg",
       "url": "https://api.disneyapi.dev/characters/480",
       "isVillain": true,
-      "likes": 0,
-      "isFavorited": false
+      "likes": 2,
+      "isFavorited": true
     },
     {
       "films": [

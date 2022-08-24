@@ -14,14 +14,15 @@ function Filter({
     handleShowVillains(e.target.checked);
   }
 
-  function handleChange(e) {
+  function handleSortChange(e) {
     handleSortBy(e.target.value);
   }
+
   return (
     <div>
       <div>
         <label>Sort By</label>
-        <select name="sort" onChange={handleChange}>
+        <select name="sort" onChange={handleSortChange}>
           <option></option>
           <option value="name">Name</option>
           <option value="likes">Likes</option>
@@ -29,8 +30,6 @@ function Filter({
       </div>
       <div>
         <label>Show Villains</label>
-      </div>
-      <div>
         <input
           type="checkbox"
           checked={showVillains}
