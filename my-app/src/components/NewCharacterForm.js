@@ -1,11 +1,14 @@
 import React, { useState } from "react";
+import { withRouter } from "react-router-dom";
 
-function NewCharacterForm({ submitNewCharacter }) {
+function NewCharacterForm(props) {
   const [name, setName] = useState("");
   const [imageUrl, setImageUrl] = useState("");
-  const [films, setFilms] = useState("");
-  const [tvshows, setTvshows] = useState("");
+  const [films, setFilms] = useState([]);
+  const [tvshows, setTvshows] = useState([]);
   const [isVillain, setIsVillain] = useState(false);
+
+  const { submitNewCharacter, history } = props;
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -13,9 +16,9 @@ function NewCharacterForm({ submitNewCharacter }) {
     let newCharacter = {
       name: name,
       imageUrl: imageUrl,
-      films: [films],
+      films: films,
       shortFilms: [],
-      tvShows: [tvshows],
+      tvShows: tvshows,
       videoGames: [],
       parkAttractions: [],
       isVillain: isVillain,
@@ -31,12 +34,15 @@ function NewCharacterForm({ submitNewCharacter }) {
       body: JSON.stringify(newCharacter),
     })
       .then((res) => res.json())
-      .then((newCharObj) => submitNewCharacter(newCharObj));
+      .then((newCharObj) => {
+        submitNewCharacter(newCharObj);
+        history.push(`/characters/${newCharObj.id}`);
+      });
 
     setName("");
     setImageUrl("");
-    setFilms("");
-    setTvshows("");
+    setFilms([]);
+    setTvshows([]);
     setIsVillain(false);
   }
 
@@ -72,7 +78,6 @@ function NewCharacterForm({ submitNewCharacter }) {
         <br></br>
         <label for="film">Add film name</label>
         <input
-          required
           type="text"
           name="film"
           step="0.01"
@@ -83,7 +88,6 @@ function NewCharacterForm({ submitNewCharacter }) {
         <br></br>
         <label for="film">Add TV show name</label>
         <input
-          required
           type="text"
           name="tvshow"
           step="0.01"
@@ -116,4 +120,4 @@ function NewCharacterForm({ submitNewCharacter }) {
   );
 }
 
-export default NewCharacterForm;
+export default withRouter(NewCharacterForm);

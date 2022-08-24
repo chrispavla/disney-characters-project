@@ -15,6 +15,7 @@ function App() {
   const [search, setSearch] = useState("");
   const [showVillains, setShowVillains] = useState(false);
   const [favoriteCharacters, setFavoriteCharacters] = useState([]);
+  const [sortBy, setSortBy] = useState("");
 
   useEffect(() => {
     fetch("http://localhost:3000/characters")
@@ -26,6 +27,20 @@ function App() {
         );
       });
   }, []);
+
+  function updateDelete(deletedCharacter) {
+    fetch(`http://localhost:3000/characters/${deletedCharacter.id}`, {
+      method: "DELETE",
+    })
+      .then((res) => res.json())
+      .then(() => updateDeletedCharacter(deletedCharacter));
+  }
+
+  function updateDeletedCharacter(deletedCharacter) {
+    setCharacters(
+      characters.filter((character) => character.id !== deletedCharacter.id)
+    );
+  }
 
   function submitNewCharacter(newCharacterObj) {
     setCharacters([...characters, newCharacterObj]);
@@ -54,6 +69,9 @@ function App() {
       }
     });
     setCharacters(newCharacters);
+    setFavoriteCharacters(
+      newCharacters.filter((character) => character.isFavorited === true)
+    );
   }
 
   function handleShowVillains() {
@@ -64,11 +82,20 @@ function App() {
     setSearch(e.target.value);
   }
 
+  function handleSortBy(value) {
+    setSortBy(value);
+  }
+
   const filteredCharactersBySearchBar = characters
     .filter((character) =>
       character.name.toLowerCase().includes(search.toLowerCase())
     )
-    .filter((character) => (showVillains ? character.isVillain : true));
+    .filter((character) => (showVillains ? character.isVillain : true))
+    .sort((a, b) => {
+      if (sortBy === "") return characters;
+      else if (sortBy === "name") return a.name.localeCompare(b.name);
+      else if (sortBy === "likes") return b.likes - a.likes;
+    });
 
   function handleClick(favoritedCharacter) {
     fetch(`http://localhost:3000/characters/${favoritedCharacter.id}`, {
@@ -110,6 +137,7 @@ function App() {
             setSearchBar={setSearchBar}
             showVillains={showVillains}
             handleShowVillains={handleShowVillains}
+            handleSortBy={handleSortBy}
           />
           <CharactersList
             characters={filteredCharactersBySearchBar}
@@ -118,6 +146,7 @@ function App() {
             showVillains={showVillains}
             handleClick={handleClick}
             handleUpdatedLikes={handleUpdatedLikes}
+            updateDelete={updateDelete}
           />
         </Route>
         <Route exact path="/characters/:id">
