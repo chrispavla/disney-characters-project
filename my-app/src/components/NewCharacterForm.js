@@ -1,10 +1,44 @@
 import React, { useState } from "react";
 
-function NewCharacterForm() {
+function NewCharacterForm({ submitNewCharacter }) {
   const [name, setName] = useState("");
   const [imageUrl, setImageUrl] = useState("");
   const [films, setFilms] = useState("");
+  const [tvshows, setTvshows] = useState("");
   const [isVillain, setIsVillain] = useState(false);
+
+  function handleSubmit(e) {
+    e.preventDefault();
+
+    let newCharacter = {
+      name: name,
+      imageUrl: imageUrl,
+      films: [films],
+      shortFilms: [],
+      tvShows: [tvshows],
+      videoGames: [],
+      parkAttractions: [],
+      isVillain: isVillain,
+      likes: 0,
+      isFavorited: false,
+    };
+
+    fetch("http://localhost:3000/characters", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newCharacter),
+    })
+      .then((res) => res.json())
+      .then((newCharObj) => submitNewCharacter(newCharObj));
+
+    setName("");
+    setImageUrl("");
+    setFilms("");
+    setTvshows("");
+    setIsVillain(false);
+  }
 
   function handleToggle(villainStatus) {
     setIsVillain(villainStatus);
@@ -13,7 +47,7 @@ function NewCharacterForm() {
   return (
     <div>
       <h2>Add Characters to Disney Universe</h2>
-      <form>
+      <form onSubmit={handleSubmit}>
         <label for="name">Character name</label>
         <input
           required
@@ -45,6 +79,17 @@ function NewCharacterForm() {
           placeholder="Film..."
           value={films}
           onChange={(e) => setFilms(e.target.value)}
+        />
+        <br></br>
+        <label for="film">Add TV show name</label>
+        <input
+          required
+          type="text"
+          name="tvshow"
+          step="0.01"
+          placeholder="TV show..."
+          value={tvshows}
+          onChange={(e) => setTvshows(e.target.value)}
         />
         <br></br>
         <label for="villain">Is it a villain?</label>

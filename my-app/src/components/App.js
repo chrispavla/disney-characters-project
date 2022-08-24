@@ -20,10 +20,16 @@ function App() {
     fetch("http://localhost:3000/characters")
       .then((res) => res.json())
       .then((characterData) => {
-        setCharacters(characterData)
-        setFavoriteCharacters(characterData.filter(character => character.isFavorited === true))
+        setCharacters(characterData);
+        setFavoriteCharacters(
+          characterData.filter((character) => character.isFavorited === true)
+        );
       });
   }, []);
+
+  function submitNewCharacter(newCharacterObj) {
+    setCharacters([...characters, newCharacterObj]);
+  }
 
   function handleUpdatedLikes(character) {
     fetch(`http://localhost:3000/characters/${character.id}`, {
@@ -71,24 +77,26 @@ function App() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        isFavorited: (favoritedCharacter.isFavorited ? false : true),
+        isFavorited: favoritedCharacter.isFavorited ? false : true,
       }),
     })
       .then((res) => res.json())
-      .then(data => updateFavoritedCharacters(data))
-    }
-    
-    function updateFavoritedCharacters(updatedCharacter) {
-      let newCharacters = characters.map((character) => {
-        if (character.id === updatedCharacter.id) {
-          return updatedCharacter;
-        } else {
-          return character;
-        }
-      })
-      setCharacters(newCharacters)
-      setFavoriteCharacters(newCharacters.filter(character => character.isFavorited === true))
-    }
+      .then((data) => updateFavoritedCharacters(data));
+  }
+
+  function updateFavoritedCharacters(updatedCharacter) {
+    let newCharacters = characters.map((character) => {
+      if (character.id === updatedCharacter.id) {
+        return updatedCharacter;
+      } else {
+        return character;
+      }
+    });
+    setCharacters(newCharacters);
+    setFavoriteCharacters(
+      newCharacters.filter((character) => character.isFavorited === true)
+    );
+  }
 
   return (
     <div className="App">
@@ -116,13 +124,13 @@ function App() {
           <CharacterDetails characters={characters} />
         </Route>
         <Route exact path="/favorites">
-          <FavoriteCharacters 
-            favoriteCharacters={favoriteCharacters} 
+          <FavoriteCharacters
+            favoriteCharacters={favoriteCharacters}
             handleClick={handleClick}
           />
         </Route>
         <Route exact path="/create-new">
-          <NewCharacterForm />
+          <NewCharacterForm submitNewCharacter={submitNewCharacter} />
         </Route>
       </Switch>
     </div>
