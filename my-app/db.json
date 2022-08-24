@@ -1,7 +1,10 @@
 {
   "characters": [
     {
-      "films": ["Hannah Montana: The Movie", "High School Musical 3"],
+      "films": [
+        "Hannah Montana: The Movie",
+        "High School Musical 3"
+      ],
       "shortFilms": [],
       "tvShows": [
         "Hannah Montana",
@@ -19,7 +22,9 @@
         "Hannah Montana: Rock Out The Show",
         "Disney Channel All Star Party"
       ],
-      "parkAttractions": ["Disneyland Resort"],
+      "parkAttractions": [
+        "Disneyland Resort"
+      ],
       "allies": [],
       "enemies": [],
       "id": 1,
@@ -28,10 +33,13 @@
       "url": "https://api.disneyapi.dev/characters/2956",
       "isVillain": false,
       "likes": 3,
-      "isFavorited": false
+      "isFavorited": true
     },
     {
-      "films": ["The Fox and the Hound", "The Fox and the Hound 2"],
+      "films": [
+        "The Fox and the Hound",
+        "The Fox and the Hound 2"
+      ],
       "shortFilms": [],
       "tvShows": [],
       "videoGames": [],
@@ -47,7 +55,9 @@
       "isFavorited": false
     },
     {
-      "films": ["Zootopia"],
+      "films": [
+        "Zootopia"
+      ],
       "shortFilms": [],
       "tvShows": [],
       "videoGames": [
@@ -63,13 +73,17 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/85/Profile_-_Mr._Big.jpeg",
       "url": "https://api.disneyapi.dev/characters/638",
       "isVillain": false,
-      "likes": 2,
-      "isFavorited": false
+      "likes": 5,
+      "isFavorited": true
     },
     {
-      "films": ["Phineas and Ferb the Movie: Across the 2nd Dimension"],
+      "films": [
+        "Phineas and Ferb the Movie: Across the 2nd Dimension"
+      ],
       "shortFilms": [],
-      "tvShows": ["Phineas and Ferb"],
+      "tvShows": [
+        "Phineas and Ferb"
+      ],
       "videoGames": [
         "Phineas and Ferb (video game)",
         "Phineas and Ferb Ride Again"
@@ -89,7 +103,9 @@
       "films": [],
       "shortFilms": [],
       "tvShows": [],
-      "videoGames": ["Tron: Evolution"],
+      "videoGames": [
+        "Tron: Evolution"
+      ],
       "parkAttractions": [],
       "allies": [],
       "enemies": [],
@@ -155,7 +171,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/84/Profile_-_Sleepy.png",
       "url": "https://api.disneyapi.dev/characters/6225",
       "isVillain": false,
-      "likes": 0,
+      "likes": 4,
       "isFavorited": false
     },
     {
@@ -203,7 +219,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/3f/Profile_-_Abu.png",
       "url": "https://api.disneyapi.dev/characters/25",
       "isVillain": false,
-      "likes": 0,
+      "likes": 5,
       "isFavorited": false
     },
     {
@@ -270,13 +286,15 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/37/Profile_-_Simba.jpeg",
       "url": "https://api.disneyapi.dev/characters/6160",
       "isVillain": false,
-      "likes": 0,
+      "likes": 3,
       "isFavorited": false
     },
     {
       "films": [],
       "shortFilms": [],
-      "tvShows": ["Kim Possible"],
+      "tvShows": [
+        "Kim Possible"
+      ],
       "videoGames": [],
       "parkAttractions": [],
       "allies": [],
@@ -286,7 +304,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/5d/Professor_Acari.jpg",
       "url": "https://api.disneyapi.dev/characters/29",
       "isVillain": false,
-      "likes": 0,
+      "likes": 4,
       "isFavorited": false
     },
     {
@@ -306,7 +324,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f0/April%2C_May%2C_and_June.png",
       "url": "https://api.disneyapi.dev/characters/290",
       "isVillain": false,
-      "likes": 0,
+      "likes": 4,
       "isFavorited": false
     },
     {
@@ -325,14 +343,21 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/8f/Achilles_HOND.jpg",
       "url": "https://api.disneyapi.dev/characters/31",
       "isVillain": false,
-      "likes": 0,
+      "likes": 3,
       "isFavorited": false
     },
     {
-      "films": ["Aladdin (film)", "Aladdin (2019 film)"],
+      "films": [
+        "Aladdin (film)",
+        "Aladdin (2019 film)"
+      ],
       "shortFilms": [],
-      "tvShows": ["Once Upon a Time"],
-      "videoGames": ["Disney Crossy Road"],
+      "tvShows": [
+        "Once Upon a Time"
+      ],
+      "videoGames": [
+        "Disney Crossy Road"
+      ],
       "parkAttractions": [],
       "allies": [],
       "enemies": [],
@@ -341,11 +366,13 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/76/Aladdin-disneyscreencaps.com-1123.jpg",
       "url": "https://api.disneyapi.dev/characters/33",
       "isVillain": true,
-      "likes": 0,
+      "likes": 4,
       "isFavorited": false
     },
     {
-      "films": ["Saludos Amigos"],
+      "films": [
+        "Saludos Amigos"
+      ],
       "shortFilms": [],
       "tvShows": [],
       "videoGames": [],
@@ -357,14 +384,20 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/32/Saludos-Amigos-classic-disney-18407142-800-600.jpg",
       "url": "https://api.disneyapi.dev/characters/34",
       "isVillain": true,
-      "likes": 0,
+      "likes": 3,
       "isFavorited": false
     },
     {
-      "films": ["Hercules (film)"],
+      "films": [
+        "Hercules (film)"
+      ],
       "shortFilms": [],
-      "tvShows": ["Hercules (TV series)"],
-      "videoGames": ["Kingdom Hearts III"],
+      "tvShows": [
+        "Hercules (TV series)"
+      ],
+      "videoGames": [
+        "Kingdom Hearts III"
+      ],
       "parkAttractions": [],
       "allies": [],
       "enemies": [],
@@ -377,9 +410,15 @@
       "isFavorited": false
     },
     {
-      "films": ["Zombies", "Zombies 2", "Zombies 3"],
+      "films": [
+        "Zombies",
+        "Zombies 2",
+        "Zombies 3"
+      ],
       "shortFilms": [],
-      "tvShows": ["Addison's Moonstone Mystery (page does not exist)"],
+      "tvShows": [
+        "Addison's Moonstone Mystery (page does not exist)"
+      ],
       "videoGames": [],
       "parkAttractions": [],
       "allies": [],
@@ -393,11 +432,21 @@
       "isFavorited": false
     },
     {
-      "films": ["Frozen", "Ralph Breaks the Internet", "Frozen II"],
-      "shortFilms": ["Olaf's Frozen Adventure"],
-      "tvShows": ["Once Upon a Time"],
+      "films": [
+        "Frozen",
+        "Ralph Breaks the Internet",
+        "Frozen II"
+      ],
+      "shortFilms": [
+        "Olaf's Frozen Adventure"
+      ],
+      "tvShows": [
+        "Once Upon a Time"
+      ],
       "videoGames": [],
-      "parkAttractions": ["Frozen: Live at the Hyperion"],
+      "parkAttractions": [
+        "Frozen: Live at the Hyperion"
+      ],
       "allies": [],
       "enemies": [],
       "id": 16,
@@ -409,9 +458,14 @@
       "isFavorited": false
     },
     {
-      "films": ["Leroy & Stitch"],
+      "films": [
+        "Leroy & Stitch"
+      ],
       "shortFilms": [],
-      "tvShows": ["Lilo & Stitch: The Series", "Stitch!"],
+      "tvShows": [
+        "Lilo & Stitch: The Series",
+        "Stitch!"
+      ],
       "videoGames": [
         "Lilo & Stitch 2: Hämsterviel Havoc",
         "Stitch Jam",
@@ -435,7 +489,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/d0/Profile_-_Angel.png",
       "url": "https://api.disneyapi.dev/characters/242",
       "isVillain": false,
-      "likes": 0,
+      "likes": 4,
       "isFavorited": false
     },
     {
@@ -443,7 +497,10 @@
         "Mickey's Once Upon a Christmas",
         "Mickey, Donald, Goofy: The Three Musketeers"
       ],
-      "shortFilms": ["Sport Goofy in Soccermania", "Swabbies"],
+      "shortFilms": [
+        "Sport Goofy in Soccermania",
+        "Swabbies"
+      ],
       "tvShows": [
         "DuckTales",
         "Darkwing Duck",
@@ -471,11 +528,15 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/65/599289-beagle_large.jpg",
       "url": "https://api.disneyapi.dev/characters/531",
       "isVillain": true,
-      "likes": 0,
+      "likes": 3,
       "isFavorited": false
     },
     {
-      "films": ["Frozen", "Frozen II", "Ralph Breaks the Internet"],
+      "films": [
+        "Frozen",
+        "Frozen II",
+        "Ralph Breaks the Internet"
+      ],
       "shortFilms": [
         "Frozen Fever",
         "The Art of Keeping Cool",
@@ -533,13 +594,19 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/0f/Profile_-_Anna.jpeg",
       "url": "https://api.disneyapi.dev/characters/256",
       "isVillain": false,
-      "likes": 0,
+      "likes": 4,
       "isFavorited": false
     },
     {
-      "films": ["Fantasia", "The Good Dinosaur"],
+      "films": [
+        "Fantasia",
+        "The Good Dinosaur"
+      ],
       "shortFilms": [],
-      "tvShows": ["The Little Mermaid (TV series)", "The Legend of Tarzan"],
+      "tvShows": [
+        "The Little Mermaid (TV series)",
+        "The Legend of Tarzan"
+      ],
       "videoGames": [],
       "parkAttractions": [
         "Ford Magic Skyway",
@@ -553,13 +620,18 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/b/bd/Un_branco_di_brontosauri.jpg",
       "url": "https://api.disneyapi.dev/characters/279",
       "isVillain": false,
-      "likes": 0,
+      "likes": 4,
       "isFavorited": false
     },
     {
-      "films": ["Leroy & Stitch"],
+      "films": [
+        "Leroy & Stitch"
+      ],
       "shortFilms": [],
-      "tvShows": ["Lilo & Stitch: The Series", "Stitch!"],
+      "tvShows": [
+        "Lilo & Stitch: The Series",
+        "Stitch!"
+      ],
       "videoGames": [],
       "parkAttractions": [],
       "allies": [],
@@ -573,16 +645,28 @@
       "isFavorited": false
     },
     {
-      "films": ["Tangled", "Tangled: Before Ever After"],
-      "shortFilms": ["Tangled Ever After", "Hare Peace"],
-      "tvShows": ["Once Upon a Time", "Tangled: The Series"],
+      "films": [
+        "Tangled",
+        "Tangled: Before Ever After"
+      ],
+      "shortFilms": [
+        "Tangled Ever After",
+        "Hare Peace"
+      ],
+      "tvShows": [
+        "Once Upon a Time",
+        "Tangled: The Series"
+      ],
       "videoGames": [
         "Disney Princess Enchanting Storybooks",
         "Hidden Worlds",
         "Disney Crossy Road",
         "Kingdom Hearts III"
       ],
-      "parkAttractions": ["Celebrate the Magic", "Jingle Bell, Jingle BAM!"],
+      "parkAttractions": [
+        "Celebrate the Magic",
+        "Jingle Bell, Jingle BAM!"
+      ],
       "allies": [],
       "enemies": [],
       "id": 22,
@@ -594,9 +678,15 @@
       "isFavorited": false
     },
     {
-      "films": ["The Aristocats", "Ralph Breaks the Internet"],
+      "films": [
+        "The Aristocats",
+        "Ralph Breaks the Internet"
+      ],
       "shortFilms": [],
-      "tvShows": ["A Poem Is...", "Disney Tsum Tsum (shorts)"],
+      "tvShows": [
+        "A Poem Is...",
+        "Disney Tsum Tsum (shorts)"
+      ],
       "videoGames": [
         "Disney's Party",
         "Disney TH!NK Fast",
@@ -762,8 +852,14 @@
         "Ralph Breaks the Internet",
         "Frozen II"
       ],
-      "shortFilms": ["Frozen Fever"],
-      "tvShows": ["Big Hero 6: The Series", "At Home With Olaf", "Baymax!"],
+      "shortFilms": [
+        "Frozen Fever"
+      ],
+      "tvShows": [
+        "Big Hero 6: The Series",
+        "At Home With Olaf",
+        "Baymax!"
+      ],
       "videoGames": [
         "Disney Infinity (series)",
         "Big Hero 6: Battle in the Bay",
@@ -800,9 +896,17 @@
       "isFavorited": false
     },
     {
-      "films": ["Frozen", "Big Hero 6", "Frozen II"],
-      "shortFilms": ["Frozen Fever"],
-      "tvShows": ["Once Upon a Time"],
+      "films": [
+        "Frozen",
+        "Big Hero 6",
+        "Frozen II"
+      ],
+      "shortFilms": [
+        "Frozen Fever"
+      ],
+      "tvShows": [
+        "Once Upon a Time"
+      ],
       "videoGames": [
         "Frozen: Free Fall",
         "Disney Enchanted Tales (game)",
@@ -974,7 +1078,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/1/1b/Profile_-_Belle.jpeg",
       "url": "https://api.disneyapi.dev/characters/571",
       "isVillain": false,
-      "likes": 0,
+      "likes": 4,
       "isFavorited": false
     },
     {
@@ -998,10 +1102,19 @@
       "isFavorited": false
     },
     {
-      "films": ["The Rescuers", "The Rescuers Down Under"],
+      "films": [
+        "The Rescuers",
+        "The Rescuers Down Under"
+      ],
       "shortFilms": [],
-      "tvShows": ["House of Mouse", "A Poem Is..."],
-      "videoGames": ["Disney Emoji Blitz", "Disney Tsum Tsum (game)"],
+      "tvShows": [
+        "House of Mouse",
+        "A Poem Is..."
+      ],
+      "videoGames": [
+        "Disney Emoji Blitz",
+        "Disney Tsum Tsum (game)"
+      ],
       "parkAttractions": [
         "Parade of the Stars",
         "World of Color",
@@ -1018,23 +1131,10 @@
       "isFavorited": false
     },
     {
-      "films": [],
-      "shortFilms": [],
-      "tvShows": ["Once Upon a Time"],
-      "videoGames": [],
-      "parkAttractions": [],
-      "allies": [],
-      "enemies": [],
-      "id": 33,
-      "name": "Abigail",
-      "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/dd/Regalblond.jpg",
-      "url": "https://api.disneyapi.dev/characters/19",
-      "isVillain": false,
-      "likes": 0,
-      "isFavorited": false
-    },
-    {
-      "films": ["A Goofy Movie", "Bedtime Stories"],
+      "films": [
+        "A Goofy Movie",
+        "Bedtime Stories"
+      ],
       "shortFilms": [],
       "tvShows": [
         "Walt Disney anthology series",
@@ -1046,7 +1146,10 @@
         "DuckTales (2017 series)",
         "Vampirina"
       ],
-      "videoGames": ["Disney Heroes: Battle Mode", "Disney Emoji Blitz"],
+      "videoGames": [
+        "Disney Heroes: Battle Mode",
+        "Disney Emoji Blitz"
+      ],
       "parkAttractions": [],
       "allies": [],
       "enemies": [],
@@ -1117,7 +1220,11 @@
         "Who Framed Roger Rabbit"
       ],
       "shortFilms": [],
-      "tvShows": ["House of Mouse", "Quack Pack", "Darkwing Duck"],
+      "tvShows": [
+        "House of Mouse",
+        "Quack Pack",
+        "Darkwing Duck"
+      ],
       "videoGames": [],
       "parkAttractions": [],
       "allies": [],
@@ -1133,8 +1240,12 @@
     {
       "films": [],
       "shortFilms": [],
-      "tvShows": ["Gravity Falls"],
-      "videoGames": ["Gravity Falls: Legend of the Gnome Gemulets"],
+      "tvShows": [
+        "Gravity Falls"
+      ],
+      "videoGames": [
+        "Gravity Falls: Legend of the Gnome Gemulets"
+      ],
       "parkAttractions": [],
       "allies": [],
       "enemies": [],
@@ -1164,7 +1275,9 @@
         "The Cheetah Girls: Pop Star Sensations",
         "The Cheetah Girls"
       ],
-      "parkAttractions": ["Disneyland Paris"],
+      "parkAttractions": [
+        "Disneyland Paris"
+      ],
       "allies": [],
       "enemies": [],
       "id": 38,
@@ -1183,7 +1296,10 @@
         "Ralph Breaks the Internet"
       ],
       "shortFilms": [],
-      "tvShows": ["Phineas and Ferb", "Legend of the Three Caballeros"],
+      "tvShows": [
+        "Phineas and Ferb",
+        "Legend of the Three Caballeros"
+      ],
       "videoGames": [
         "Kingdom Hearts (series)",
         "The Nightmare Before Christmas: Oogie's Revenge",
@@ -1219,7 +1335,9 @@
       "isFavorited": false
     },
     {
-      "films": ["The Nightmare Before Christmas"],
+      "films": [
+        "The Nightmare Before Christmas"
+      ],
       "shortFilms": [],
       "tvShows": [],
       "videoGames": [
@@ -1277,8 +1395,12 @@
       "isFavorited": false
     },
     {
-      "films": ["Moana (film)"],
-      "shortFilms": ["Gone Fishing"],
+      "films": [
+        "Moana (film)"
+      ],
+      "shortFilms": [
+        "Gone Fishing"
+      ],
       "tvShows": [],
       "videoGames": [
         "Moana: Island Life",
@@ -1292,7 +1414,9 @@
         "Disney Getaway Blast",
         "Disney Mirrorverse"
       ],
-      "parkAttractions": ["Summer Blast"],
+      "parkAttractions": [
+        "Summer Blast"
+      ],
       "allies": [],
       "enemies": [],
       "id": 42,
@@ -1390,9 +1514,14 @@
       "isFavorited": false
     },
     {
-      "films": ["The Return of Jafar", "Aladdin and the King of Thieves"],
+      "films": [
+        "The Return of Jafar",
+        "Aladdin and the King of Thieves"
+      ],
       "shortFilms": [],
-      "tvShows": ["Aladdin (TV series)"],
+      "tvShows": [
+        "Aladdin (TV series)"
+      ],
       "videoGames": [],
       "parkAttractions": [],
       "allies": [],
@@ -1408,7 +1537,9 @@
     {
       "films": [],
       "shortFilms": [],
-      "tvShows": ["Gravity Falls"],
+      "tvShows": [
+        "Gravity Falls"
+      ],
       "videoGames": [
         "Disney XD Villains Unite!",
         "Gravity Falls: Legend of the Gnome Gemulets",
@@ -1422,13 +1553,19 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/4/41/Profile_-_Bill_Cipher.png",
       "url": "https://api.disneyapi.dev/characters/641",
       "isVillain": true,
-      "likes": 1,
+      "likes": 4,
       "isFavorited": false
     },
     {
-      "films": ["Big Hero 6", "Ralph Breaks the Internet"],
+      "films": [
+        "Big Hero 6",
+        "Ralph Breaks the Internet"
+      ],
       "shortFilms": [],
-      "tvShows": ["Big Hero 6: The Series", "At Home With Olaf"],
+      "tvShows": [
+        "Big Hero 6: The Series",
+        "At Home With Olaf"
+      ],
       "videoGames": [
         "Disney Infinity (series)",
         "Big Hero 6: Battle in the Bay",
@@ -1458,11 +1595,13 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/21/Profile_-_Hiro_Hamada.jpeg",
       "url": "https://api.disneyapi.dev/characters/2942",
       "isVillain": false,
-      "likes": 1,
+      "likes": 5,
       "isFavorited": false
     },
     {
-      "films": ["Zootopia"],
+      "films": [
+        "Zootopia"
+      ],
       "shortFilms": [],
       "tvShows": [],
       "videoGames": [
@@ -1471,7 +1610,9 @@
         "Disney Magical Dice",
         "Disney Sorcerer's Arena"
       ],
-      "parkAttractions": ["Wonderful World of Animation"],
+      "parkAttractions": [
+        "Wonderful World of Animation"
+      ],
       "allies": [],
       "enemies": [],
       "id": 47,
@@ -1479,11 +1620,13 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/85/Profile_-_Bellwether_.jpeg",
       "url": "https://api.disneyapi.dev/characters/579",
       "isVillain": false,
-      "likes": 0,
+      "likes": 3,
       "isFavorited": false
     },
     {
-      "films": ["Pirates of the Caribbean: On Stranger Tides"],
+      "films": [
+        "Pirates of the Caribbean: On Stranger Tides"
+      ],
       "shortFilms": [],
       "tvShows": [],
       "videoGames": [
@@ -1508,11 +1651,18 @@
     {
       "name": "Thomas O'Malley",
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/70/Profile_-_Thomas_O%27_Malley.jpeg",
-      "films": ["The Aristocats", "Who Framed Roger Rabbit"],
-      "tvShows": ["House of Mouse"],
+      "films": [
+        "The Aristocats",
+        "Who Framed Roger Rabbit"
+      ],
+      "tvShows": [
+        "House of Mouse"
+      ],
       "shortFilms": [],
       "videoGames": [],
-      "parkAttractions": ["Celebrate the Magic"],
+      "parkAttractions": [
+        "Celebrate the Magic"
+      ],
       "isVillain": false,
       "id": 49,
       "likes": 4,
@@ -1521,7 +1671,12 @@
     {
       "name": "Olaf",
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/53/Profile_-_Olaf.jpeg",
-      "films": ["Frozen", "Frozen II", "Big Hero 6", "Moana (film)"],
+      "films": [
+        "Frozen",
+        "Frozen II",
+        "Big Hero 6",
+        "Moana (film)"
+      ],
       "shortFilms": [
         "Frozen Fever",
         "The Art of Keeping Cool",
@@ -1570,15 +1725,21 @@
         "It's a Small World"
       ],
       "isVillain": false,
-      "likes": 1,
+      "likes": 2,
       "isFavorited": false,
       "id": 50
     },
     {
       "name": "Oswald the Lucky Rabbit",
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/4/4b/Oswald_cartoon.png",
-      "films": ["Big Hero 6", "Zootopia"],
-      "shortFilms": ["Oswald the Lucky Rabbit (series)", "Get a Horse!"],
+      "films": [
+        "Big Hero 6",
+        "Zootopia"
+      ],
+      "shortFilms": [
+        "Oswald the Lucky Rabbit (series)",
+        "Get a Horse!"
+      ],
       "tvShows": [
         "Mickey Mouse (TV series)",
         "The Wonderful World of Mickey Mouse"
@@ -1596,9 +1757,105 @@
         "Disney FanDaze Inaugural Party"
       ],
       "isVillain": false,
-      "likes": 0,
+      "likes": 1,
       "isFavorited": false,
       "id": 51
+    },
+    {
+      "name": "Brady Parker",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/b/bc/Pair-of-kings-mitchel-musso-1_%281%29.jpg",
+      "films": [],
+      "shortFilms": [
+        "Save the Island (page does not exist)"
+      ],
+      "tvShows": [
+        "Pair of Kings"
+      ],
+      "videoGames": [
+        "Heroes of XD"
+      ],
+      "parkAttractions": [],
+      "isVillain": false,
+      "likes": 5,
+      "isFavorited": false,
+      "id": 52
+    },
+    {
+      "name": "Parrot",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/05/Parrot.jpg",
+      "films": [],
+      "shortFilms": [],
+      "tvShows": [
+        "The Wonderful World of Mickey Mouse"
+      ],
+      "videoGames": [],
+      "parkAttractions": [],
+      "isVillain": false,
+      "likes": 0,
+      "isFavorited": false,
+      "id": 53
+    },
+    {
+      "name": "Pascal",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/b/ba/Profile_-_Pascal.png",
+      "films": [
+        "Tangled",
+        "Zootopia",
+        "Tangled: Before Ever After",
+        "Ralph Breaks the Internet"
+      ],
+      "shortFilms": [
+        "Tangled Ever After"
+      ],
+      "tvShows": [
+        "\"Tangled: The Series\""
+      ],
+      "videoGames": [
+        "Disney Universe",
+        "Disney Princess: My Fairytale Adventure",
+        "Epic Mickey: Power of Illusion",
+        "disney:Hidden Worlds",
+        "Disney Crossy Road",
+        "Disney Tsum Tsum (game)",
+        "Disney Emoji Blitz",
+        "Kingdom Hearts III",
+        "Disney Magic Kingdoms",
+        "Disney Princess Majestic Quest"
+      ],
+      "parkAttractions": [
+        "Mickey's Soundsational Parade"
+      ],
+      "isVillain": false,
+      "likes": 0,
+      "isFavorited": false,
+      "id": 54
+    },
+    {
+      "name": "Patch",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/79/Profile_-_Patch.png",
+      "films": [
+        "One Hundred and One Dalmatians",
+        "101 Dalmatians II: Patch's London Adventure",
+        "Mickey's Magical Christmas: Snowed in at the House of Mouse"
+      ],
+      "shortFilms": [
+        "Electric Holiday",
+        "The Further Adventures of Thunderbolt"
+      ],
+      "tvShows": [
+        "101 Dalmatians: The Series",
+        "House of Mouse"
+      ],
+      "videoGames": [
+        "Kingdom Hearts (game)",
+        "Disney Tsum Tsum (game)",
+        "Disney Emoji Blitz"
+      ],
+      "parkAttractions": [],
+      "isVillain": false,
+      "likes": 0,
+      "isFavorited": false,
+      "id": 55
     }
   ]
 }

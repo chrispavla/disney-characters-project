@@ -1,6 +1,11 @@
 import React from "react";
 
-function Filter({ setSearchBar, showVillains, handleShowVillains }) {
+function Filter({
+  setSearchBar,
+  handleSortBy,
+  showVillains,
+  handleShowVillains,
+}) {
   function handleChange(e) {
     setSearchBar(e);
   }
@@ -8,8 +13,20 @@ function Filter({ setSearchBar, showVillains, handleShowVillains }) {
   function handleToggleVillains(e) {
     handleShowVillains(e.target.checked);
   }
+
+  function handleChange(e) {
+    handleSortBy(e.target.value);
+  }
   return (
     <div>
+      <div>
+        <label>Sort By</label>
+        <select name="sort" onChange={handleChange}>
+          <option></option>
+          <option value="name">Name</option>
+          <option value="likes">Likes</option>
+        </select>
+      </div>
       <div>
         <label>Show Villains</label>
       </div>
