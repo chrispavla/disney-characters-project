@@ -19,7 +19,15 @@ function Filter({
   }
 
   return (
-    <div style={{display: "flex", justifyContent: "space-around", marginTop: "20px", alignItems: "center"}}>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "space-around",
+        marginTop: "20px",
+        marginBottom: "20px",
+        alignItems: "center",
+      }}
+    >
       <div>
         <label className="mx-2">Sort By</label>
         <select name="sort" onChange={handleSortChange}>
@@ -37,7 +45,9 @@ function Filter({
         ></input>
       </div>
       <div>
-        <label className="mx-2" htmlFor="search">Search Characters:</label>
+        <label className="mx-2" htmlFor="search">
+          Search Characters:
+        </label>
         <input
           onChange={handleChange}
           type="text"

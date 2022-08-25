@@ -51,7 +51,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/05/Fox-disneyscreencaps_com-901.jpg",
       "url": "https://api.disneyapi.dev/characters/18",
       "isVillain": false,
-      "likes": 20,
+      "likes": 22,
       "isFavorited": true
     },
     {
@@ -96,7 +96,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/fd/Gretchen_understands_the_75_degree_angle.png",
       "url": "https://api.disneyapi.dev/characters/2848",
       "isVillain": false,
-      "likes": 2,
+      "likes": 5,
       "isFavorited": false
     },
     {
@@ -343,7 +343,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/8f/Achilles_HOND.jpg",
       "url": "https://api.disneyapi.dev/characters/31",
       "isVillain": false,
-      "likes": 3,
+      "likes": 4,
       "isFavorited": true
     },
     {
@@ -406,7 +406,7 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/d3/Vlcsnap-2015-05-06-23h04m15s601.png",
       "url": "https://api.disneyapi.dev/characters/112",
       "isVillain": false,
-      "likes": 0,
+      "likes": 1,
       "isFavorited": true
     },
     {
@@ -893,7 +893,7 @@
       "url": "https://api.disneyapi.dev/characters/527",
       "isVillain": false,
       "likes": 0,
-      "isFavorited": true
+      "isFavorited": false
     },
     {
       "films": [
@@ -996,7 +996,7 @@
       "url": "https://api.disneyapi.dev/characters/544",
       "isVillain": true,
       "likes": 0,
-      "isFavorited": true
+      "isFavorited": false
     },
     {
       "films": [
@@ -1079,7 +1079,7 @@
       "url": "https://api.disneyapi.dev/characters/571",
       "isVillain": false,
       "likes": 4,
-      "isFavorited": true
+      "isFavorited": false
     },
     {
       "films": [
@@ -1098,8 +1098,8 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/2c/A.J._Arno.jpg",
       "url": "https://api.disneyapi.dev/characters/14",
       "isVillain": true,
-      "likes": 0,
-      "isFavorited": true
+      "likes": 1,
+      "isFavorited": false
     },
     {
       "films": [
@@ -1127,8 +1127,8 @@
       "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f6/Miss_Bianca.png",
       "url": "https://api.disneyapi.dev/characters/624",
       "isVillain": false,
-      "likes": 0,
-      "isFavorited": true
+      "likes": 4,
+      "isFavorited": false
     },
     {
       "films": [
@@ -1856,6 +1856,165 @@
       "likes": 0,
       "isFavorited": false,
       "id": 55
+    },
+    {
+      "name": "Max Goof",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/56/Max_Goof.png",
+      "films": [
+        "A Goofy Movie",
+        "Miscellaneous Disney animated shorts compilation videos",
+        "Mickey's Once Upon a Christmas",
+        "An Extremely Goofy Movie",
+        "Mickey's Twice Upon a Christmas",
+        "Mickey's House of Villains"
+      ],
+      "shortFilms": [
+        "Fathers Are People",
+        "Father's Lion",
+        "Father's Day Off",
+        "Father's Weekend",
+        "Aquamania"
+      ],
+      "tvShows": [
+        "Walt Disney anthology series",
+        "Walt Disney anthology series",
+        "Goof Troop",
+        "Mickey Mouse Works",
+        "House of Mouse",
+        "A Poem Is...",
+        "DuckTales (2017 series)"
+      ],
+      "videoGames": [
+        "Goof Troop (video game)",
+        "Nintendo",
+        "Goofy's Fun House",
+        "Disney's Extremely Goofy Skateboarding",
+        "Disney Golf",
+        "Disney Sports Skateboarding",
+        "Disney Sports Basketball",
+        "Disney Sports Football",
+        "Disney Tsum Tsum (game)",
+        "Disney Emoji Blitz"
+      ],
+      "parkAttractions": [
+        "A Christmas Fantasy Parade",
+        "Fantasmic!",
+        "Mickey & Duffy's Spring Voyage",
+        "Parade of the Stars"
+      ],
+      "isVillain": false,
+      "likes": 9,
+      "isFavorited": true,
+      "id": 56
+    },
+    {
+      "name": "Grand Councilwoman",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/9/9f/Profile_-_Grand_Councilwoman.jpeg",
+      "films": [
+        "Lilo & Stitch"
+      ],
+      "shortFilms": [],
+      "tvShows": [
+        "Lilo & Stitch: The Series"
+      ],
+      "videoGames": [],
+      "parkAttractions": [],
+      "isVillain": true,
+      "likes": 0,
+      "isFavorited": false,
+      "id": 57
+    },
+    {
+      "name": "The Grand Duke",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/8f/Grand_Duke_Cinderella.jpeg",
+      "films": [
+        "Cinderella (1950 film)"
+      ],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": [],
+      "parkAttractions": [],
+      "isVillain": false,
+      "likes": 0,
+      "isFavorited": false,
+      "id": 58
+    },
+    {
+      "name": "The Great Prince of the Forest",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/cb/Profile_-_Great_Prince_of_the_Forest.png",
+      "films": [
+        "Bambi (film)"
+      ],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": [],
+      "parkAttractions": [],
+      "isVillain": false,
+      "likes": 0,
+      "isFavorited": false,
+      "id": 59
+    },
+    {
+      "name": "Griffin",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/b/b2/ScreenCapture_11.11.13_21-23-34.jpg",
+      "films": [
+        []
+      ],
+      "shortFilms": [],
+      "tvShows": [
+        "American Dragon: Jake Long"
+      ],
+      "videoGames": [],
+      "parkAttractions": [],
+      "isVillain": false,
+      "likes": 0,
+      "isFavorited": false,
+      "id": 60
+    },
+    {
+      "name": "Grimsby",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/df/Profile_-_Grismby.jpg",
+      "films": [
+        "The Little Mermaid"
+      ],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": [],
+      "parkAttractions": [],
+      "isVillain": false,
+      "likes": 0,
+      "isFavorited": false,
+      "id": 61
+    },
+    {
+      "name": "Gus Griswald",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/35/Profile_-_Gus_Griswald.jpg",
+      "films": [
+        "Recess: School's Out"
+      ],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": [],
+      "parkAttractions": [],
+      "isVillain": false,
+      "likes": 0,
+      "isFavorited": false,
+      "id": 62
+    },
+    {
+      "name": "Charlotte La Bouff",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/0e/Charlotte_La_Bouff.jpeg",
+      "films": [
+        "The Princess and the Frog"
+      ],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": [],
+      "parkAttractions": [],
+      "isVillain": false,
+      "likes": 0,
+      "isFavorited": false,
+      "id": 63
     }
   ]
 }

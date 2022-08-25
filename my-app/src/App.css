@@ -19,7 +19,7 @@
   border: none;
 }
 
-.btn:hover, 
+.btn:hover,
 .btn:focus,
 .btn:active,
 .btn:visited {
@@ -42,21 +42,25 @@
 }
 
 .home-btn {
-  margin-top: 30px
+  margin-top: 30px;
+}
+
+.favoritesBtn {
+  width: 65%;
 }
 
 .bg-fit {
-  height: 100vh
+  height: 100vh;
 }
 
 .parent {
   position: relative;
-}      
+}
 
 .child {
   position: absolute;
   right: 10px;
-  top: 10px
+  top: 10px;
 }
 
 .App-logo {
@@ -81,7 +85,7 @@
 
 /* setting style for selected NavBar link */
 .active {
-  background-color: lightblue;
+  background-color: #d3cce3;
 }
 
 .card-img-top {
@@ -92,22 +96,22 @@
 
 .link {
   text-decoration: none;
-  color: #120e1a
+  color: #120e1a;
 }
 .link:hover {
-  color:#655193
+  color: #655193;
 }
 
 .listcard {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .listcard:hover {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .15);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 }
 
 li {

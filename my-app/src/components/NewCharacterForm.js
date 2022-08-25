@@ -4,8 +4,8 @@ import { withRouter } from "react-router-dom";
 function NewCharacterForm(props) {
   const [name, setName] = useState("");
   const [imageUrl, setImageUrl] = useState("");
-  const [films, setFilms] = useState([]);
-  const [tvshows, setTvshows] = useState([]);
+  const [films, setFilms] = useState(null);
+  const [tvshows, setTvshows] = useState(null);
   const [isVillain, setIsVillain] = useState(false);
 
   const { submitNewCharacter, history } = props;
@@ -16,9 +16,9 @@ function NewCharacterForm(props) {
     let newCharacter = {
       name: name,
       imageUrl: imageUrl,
-      films: films,
+      films: films ? [films] : [],
       shortFilms: [],
-      tvShows: tvshows,
+      tvShows: tvshows ? [tvshows] : [],
       videoGames: [],
       parkAttractions: [],
       isVillain: isVillain,
@@ -56,7 +56,9 @@ function NewCharacterForm(props) {
       <div className="not-center">
         <form onSubmit={handleSubmit}>
           <div className="form-group row my-2 mx-2">
-            <label htmlFor="name" className="col-sm-2 col-form-label">Character name</label>
+            <label htmlFor="name" className="col-sm-2 col-form-label">
+              Character name
+            </label>
             <div className="col-sm-8">
               <input
                 required
@@ -71,7 +73,9 @@ function NewCharacterForm(props) {
             </div>
           </div>
           <div className="form-group row my-2 mx-2">
-            <label htmlFor="image" className="col-sm-2 col-form-label">Add image link</label>
+            <label htmlFor="image" className="col-sm-2 col-form-label">
+              Add image link
+            </label>
             <div className="col-sm-8">
               <input
                 required
@@ -86,7 +90,9 @@ function NewCharacterForm(props) {
             </div>
           </div>
           <div className="form-group row my-2 mx-2">
-            <label htmlFor="film" className="col-sm-2 col-form-label">Add film name</label>
+            <label htmlFor="film" className="col-sm-2 col-form-label">
+              Add film name
+            </label>
             <div className="col-sm-8">
               <input
                 type="text"
@@ -100,7 +106,9 @@ function NewCharacterForm(props) {
             </div>
           </div>
           <div className="form-group row my-2 mx-2">
-            <label htmlFor="film" className="col-sm-2 col-form-label">Add TV show name</label>
+            <label htmlFor="film" className="col-sm-2 col-form-label">
+              Add TV show name
+            </label>
             <div className="col-sm-8">
               <input
                 type="text"
@@ -115,10 +123,14 @@ function NewCharacterForm(props) {
           </div>
           <fieldset class="form-group">
             <div className="row mx-2">
-              <legend className="col-form-label col-sm-2 pt-0">Is it a villain?</legend>
+              <legend className="col-form-label col-sm-2 pt-0">
+                Is it a villain?
+              </legend>
               <div className="col-sm-10">
                 <div className="form-check">
-                  <label for="villain" className="form-check-label">Villain</label>
+                  <label for="villain" className="form-check-label">
+                    Villain
+                  </label>
                   <input
                     type="radio"
                     id="villain"
@@ -126,10 +138,12 @@ function NewCharacterForm(props) {
                     value={true}
                     onChange={() => handleToggle(true)}
                     className="form-check-input"
-                    />
+                  />
                 </div>
                 <div className="form-check">
-                  <label for="notVillain" className="form-check-label">Not a villain</label>
+                  <label for="notVillain" className="form-check-label">
+                    Not a villain
+                  </label>
                   <input
                     type="radio"
                     id="notVillain"
@@ -144,7 +158,9 @@ function NewCharacterForm(props) {
           </fieldset>
           <div class="form-group row">
             <div class="col-sm-10">
-              <button type="submit" className="btn btn-primary mx-3 my-4">Submit character</button>
+              <button type="submit" className="btn btn-primary mx-3 my-4">
+                Submit character
+              </button>
             </div>
           </div>
         </form>
