@@ -11,53 +11,60 @@ function CharacterDetails(props) {
 
   return (
     <div className="bg-fit">
-      <div> 
-        <button className="btn btn-primary btn-sm btn-block my-1 mx-1" onClick={handleGoBack}>Go back</button>
+      <div style={{ marginTop: "40px" }}>
+        <button
+          className="btn btn-primary btn-lg btn-block my-1 mx-1"
+          onClick={handleGoBack}
+        >
+          Go back
+        </button>
       </div>
-      <div class="card mb-3 mx-auto" style={{maxWidth: "540px"}}>
-        <div class="row no-gutters">
+      <div
+        class="card mb-3 mx-auto"
+        style={{ maxWidth: "640px", marginTop: "60px" }}
+      >
+        <div class="row no-gutters flexCont">
           <div class="col-md-4">
-            <img src={character.imageUrl} class="card-img my-5 mx-5" alt={character.name}></img>
+            <img
+              src={character.imageUrl}
+              class="card-img my-5 mx-5"
+              alt={character.name}
+            ></img>
           </div>
           <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">{character.name}</h5>
-              <p class="card-text">
+            <h3 class="card-title">{character.name}</h3>
+            <div>
+              <p>
                 {character.films.length === 0 ? null : (
-                  <ul>
-                    Films:
+                  <div>
+                    <h6 style={{ fontWeight: "bold" }}> Films:</h6>
                     {character.films.map((film) => (
                       <li>{film}</li>
                     ))}
-                  </ul>
+                  </div>
                 )}
                 {character.shortFilms.length === 0 ? null : (
-                  <ul>
-                    Short Films:
+                  <div>
+                    <h6 style={{ fontWeight: "bold" }}>Short Films:</h6>
                     {character.shortFilms.map((film) => (
                       <li>{film}</li>
                     ))}
-                  </ul>
+                  </div>
                 )}
                 {character.tvShows.length === 0 ? null : (
-                  <ul>
-                    TV Shows:
+                  <div>
+                    <h6 style={{ fontWeight: "bold" }}>TV Shows:</h6>
                     {character.tvShows.map((show) => (
                       <li>{show}</li>
                     ))}
-                  </ul>
+                  </div>
                 )}
-                {character.isVillain ? (
-                  <p>Villain</p>
-                ) : (
-                  <p>Not Villain</p>
-                )}
+                {character.isVillain ? <h6>Villain</h6> : <h6>Not Villain</h6>}
               </p>
             </div>
           </div>
         </div>
       </div>
-
     </div>
   );
 }

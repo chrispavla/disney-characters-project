@@ -53,9 +53,9 @@ function NewCharacterForm(props) {
   return (
     <div className="bg-fit">
       <h2 className="headers">Add Characters to Disney Universe</h2>
-      <div className="not-center">
+      <div className="not-center" style={{ marginTop: "40px" }}>
         <form onSubmit={handleSubmit}>
-          <div className="form-group row my-2 mx-2">
+          <div className="form-group row my-2 mx-5">
             <label htmlFor="name" className="col-sm-2 col-form-label">
               Character name
             </label>
@@ -72,7 +72,7 @@ function NewCharacterForm(props) {
               />
             </div>
           </div>
-          <div className="form-group row my-2 mx-2">
+          <div className="form-group row my-2 mx-5">
             <label htmlFor="image" className="col-sm-2 col-form-label">
               Add image link
             </label>
@@ -89,7 +89,7 @@ function NewCharacterForm(props) {
               />
             </div>
           </div>
-          <div className="form-group row my-2 mx-2">
+          <div className="form-group row my-2 mx-5">
             <label htmlFor="film" className="col-sm-2 col-form-label">
               Add film name
             </label>
@@ -105,7 +105,7 @@ function NewCharacterForm(props) {
               />
             </div>
           </div>
-          <div className="form-group row my-2 mx-2">
+          <div className="form-group row my-2 mx-5">
             <label htmlFor="film" className="col-sm-2 col-form-label">
               Add TV show name
             </label>
@@ -122,7 +122,7 @@ function NewCharacterForm(props) {
             </div>
           </div>
           <fieldset class="form-group">
-            <div className="row mx-2">
+            <div className="row mx-5">
               <legend className="col-form-label col-sm-2 pt-0">
                 Is it a villain?
               </legend>
@@ -158,7 +158,7 @@ function NewCharacterForm(props) {
           </fieldset>
           <div class="form-group row">
             <div class="col-sm-10">
-              <button type="submit" className="btn btn-primary mx-3 my-4">
+              <button type="submit" className="btn btn-primary mx-5 my-4">
                 Submit character
               </button>
             </div>
