@@ -17,15 +17,6 @@ The user can:
 - Toggle functionality to show only villain characters;
 - Search a charachter by name;
 
-## Technologies
-
-- Javascript
-- React
-- React Routher DOM
-- Bootstrap
-- Custom CSS
-- JSON
-
 ## Set Up
 
 To run this project, first clone or fork repository:
@@ -58,6 +49,14 @@ open the app in browser
 npm start
 ```
 
+## Technologies
+
+- Javascript
+- React
+- React Routher DOM
+- Bootstrap
+- Custom CSS
+- JSON
 
 ## Team
 **Wendy You**
