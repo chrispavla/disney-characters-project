@@ -53,7 +53,7 @@ npm start
 
 - Javascript
 - React
-- React Routher DOM
+- React Router DOM
 - Bootstrap
 - Custom CSS
 - JSON
